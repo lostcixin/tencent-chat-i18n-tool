@@ -2,10 +2,10 @@
 /*
  * Generated file. Do not edit.
  *
- * Locales: 5
- * Strings: 3685 (737.0 per locale)
+ * Locales: 6
+ * Strings: 4422 (737.0 per locale)
  *
- * Built on 2024-03-08 at 04:22 UTC
+ * Built on 2024-03-27 at 13:10 UTC
  */
 
 import 'package:flutter/widgets.dart';
@@ -23,6 +23,7 @@ enum AppLocale {
 	en, // 'en' (base locale, fallback)
 	ja, // 'ja'
 	ko, // 'ko'
+	my, // 'my'
 	zhHans, // 'zh-Hans'
 	zhHant, // 'zh-Hant'
 }
@@ -153,6 +154,7 @@ class AppLocaleUtils {
 late _StringsEn _translationsEn = _StringsEn.build();
 late _StringsJa _translationsJa = _StringsJa.build();
 late _StringsKo _translationsKo = _StringsKo.build();
+late _StringsMy _translationsMy = _StringsMy.build();
 late _StringsZhHans _translationsZhHans = _StringsZhHans.build();
 late _StringsZhHant _translationsZhHant = _StringsZhHant.build();
 
@@ -168,6 +170,7 @@ extension AppLocaleExtensions on AppLocale {
 			case AppLocale.en: return _translationsEn;
 			case AppLocale.ja: return _translationsJa;
 			case AppLocale.ko: return _translationsKo;
+			case AppLocale.my: return _translationsMy;
 			case AppLocale.zhHans: return _translationsZhHans;
 			case AppLocale.zhHant: return _translationsZhHant;
 		}
@@ -185,6 +188,7 @@ extension AppLocaleExtensions on AppLocale {
 			case AppLocale.en: return _StringsEn.build();
 			case AppLocale.ja: return _StringsJa.build();
 			case AppLocale.ko: return _StringsKo.build();
+			case AppLocale.my: return _StringsMy.build();
 			case AppLocale.zhHans: return _StringsZhHans.build();
 			case AppLocale.zhHant: return _StringsZhHant.build();
 		}
@@ -195,6 +199,7 @@ extension AppLocaleExtensions on AppLocale {
 			case AppLocale.en: return 'en';
 			case AppLocale.ja: return 'ja';
 			case AppLocale.ko: return 'ko';
+			case AppLocale.my: return 'my';
 			case AppLocale.zhHans: return 'zh-Hans';
 			case AppLocale.zhHant: return 'zh-Hant';
 		}
@@ -205,6 +210,7 @@ extension AppLocaleExtensions on AppLocale {
 			case AppLocale.en: return const Locale.fromSubtags(languageCode: 'en');
 			case AppLocale.ja: return const Locale.fromSubtags(languageCode: 'ja');
 			case AppLocale.ko: return const Locale.fromSubtags(languageCode: 'ko');
+			case AppLocale.my: return const Locale.fromSubtags(languageCode: 'my');
 			case AppLocale.zhHans: return const Locale.fromSubtags(languageCode: 'zh', scriptCode: 'Hans', );
 			case AppLocale.zhHant: return const Locale.fromSubtags(languageCode: 'zh', scriptCode: 'Hant', );
 		}
@@ -217,6 +223,7 @@ extension StringAppLocaleExtensions on String {
 			case 'en': return AppLocale.en;
 			case 'ja': return AppLocale.ja;
 			case 'ko': return AppLocale.ko;
+			case 'my': return AppLocale.my;
 			case 'zh-Hans': return AppLocale.zhHans;
 			case 'zh-Hant': return AppLocale.zhHant;
 			default: return null;
@@ -2576,6 +2583,761 @@ class _StringsKo implements _StringsEn {
 	@override String get k_0zw0eau => 'Flutter';
 	@override String get k_132m79q => '통화가 끝나다';
 	@override String get k_002robo => '제거';
+}
+
+// Path: <root>
+class _StringsMy implements _StringsEn {
+
+	/// You can call this constructor and build your own translation instance of this locale.
+	/// Constructing via the enum [AppLocale.build] is preferred.
+	_StringsMy.build();
+
+	/// Access flat map
+	@override dynamic operator[](String key) => _flatMap[key];
+
+	// Internal flat map initialized lazily
+	@override late final Map<String, dynamic> _flatMap = _buildFlatMap();
+
+	@override late final _StringsMy _root = this; // ignore: unused_field
+
+	// Translations
+	@override String get k_1yemzyd => 'မက်ဆေ့ခ်ျ ကိုလက်ခံရရှိ ခဲ့သည်';
+	@override String get k_0ylosxn => 'custom message';
+	@override String get k_13sajrj => 'emoji message';
+	@override String get k_13sjeb7 => 'ဖိုင် မက်ဆေ့ခ်ျ';
+	@override String get k_0yd2ft8 => 'Group မှ prompt မက်ဆေ့ခ်ျ ကို';
+	@override String get k_13s7mxn => 'Photo မက်ဆေ့ခ်ျ';
+	@override String get k_13satlt => 'တည်နေရာ မက်ဆေ့ခ်ျ';
+	@override String get k_00bbtsx => 'Forwarding မက်ဆေ့ခ်ျ ကို ပေါင်းစည်း';
+	@override String get k_13sqwu4 => 'အသံ မက်ဆေ့ခ်ျ';
+	@override String get k_13sqjjp => 'ဗီဒီယို မက်ဆေ့ခ်ျ များ';
+	@override String get k_1fdhj9g => 'ဒီ ဗားရှင်း ကဒီ မက်ဆေ့ခ်ျ ကို အထောက်အပံ့ မပေး ပါဘူး';
+	@override String get k_06pujtm => 'သူငယ်ချင်း များ ထည့် ရန် မည်သည့် အသုံးပြု သူနှင့် မဆို သဘောတူပါ';
+	@override String get k_0gyhkp5 => 'အတည်ပြု ရန်လိုအပ်သည်';
+	@override String get k_121ruco => 'သူငယ်ချင်း များထည့်ရန် မည်သူမဆိုကို ငြင်းပယ်ပါ';
+	@override String get k_05nspni => 'Custom Field';
+	@override String get k_03fchyy => 'Group Profile';
+	@override String get k_03i9mfe => 'Group မှ ကိုယ်ရေး အကျဉ်း';
+	@override String get k_03agq58 => 'အုပ်စု အမည်';
+	@override String get k_039xqny => 'Group မှ အကြောင်းကြားစာ';
+	@override String get k_003tr0a => 'အုပ်စု ပိုင်ရှင်';
+	@override String get k_03c49qt => 'Authorization သွား';
+	@override String get k_002wddw => 'တားမြစ်ချက်';
+	@override String get k_0got6f7 => 'ပိတ်ပင် မှုကို ရုပ်သိမ်းပါ';
+	@override String get k_1uaqed6 => '[စိတ်ကြိုက်]';
+	@override String get k_0z2z7rx => '[အသံ]';
+	@override String get k_0y39ngu => '[Emotion]';
+	@override String get k_0y1a2my => '[ပုံ]';
+	@override String get k_0z4fib8 => '[ဗီဒီယို]';
+	@override String get k_0y24mcg => '[တည်နေရာ]';
+	@override String get k_0pewpd1 => '[စကားဝိုင်း မှတ်တမ်း]';
+	@override String get k_13s8d9p => 'အမည်မသိ မက်ဆေ့ခ်ျ';
+	@override String get k_1c3us5n => '@ all members ကို လက်ရှိ အုပ်စု ကမ ထောက်ပံ့ပါ';
+	@override String get k_11k579v => 'မိန့်ခွန်း ထဲမှာ တရားမဝင် ကြေညာချက်ရှိပါတယ်';
+	@override String get k_003qkx2 => 'ပြက္ခဒိန်';
+	@override String get k_003n2pz => 'ကင်မရာ';
+	@override String get k_03idjo0 => 'ဆက်သွယ်ရန်မိတ်ဆွေ';
+	@override String get k_003ltgm => 'တည်နေရာ';
+	@override String get k_02k3k86 => 'မိုက်ခရို ဖုန်း';
+	@override String get k_003pm7l => 'Photo Album';
+	@override String get k_15ao57x => 'အယ်လ်ဘမ် ရေးသား ခြင်း';
+	@override String get k_164m3jd => 'ဒေသခံ သိုလှောင်မှု';
+	@override String get k_03r6qyx => 'သတင်းအချက်အလက် ရယူရန်အတွက် သင်၏ ခွင့်ပြုချက် လိုအပ်သည်';
+	@override String get k_02noktt => 'ခွင့်ပြုချက်မရှိ';
+	@override String get k_00043x4 => 'Good';
+	@override String get k_003qzac => 'မနေ့က';
+	@override String get k_003r39d => 'တစ်မြန်နေ့က';
+	@override String get k_03fqp9o => 'တနင်္ဂနွေနေ့';
+	@override String get k_03ibg5h => 'တနင်္လာနေ့';
+	@override String get k_03i7hu1 => 'အင်္ဂါနေ့';
+	@override String get k_03iaiks => 'ဗုဒ္ဓဟူးနေ့';
+	@override String get k_03el9pa => 'ကြာသပတေးနေ့';
+	@override String get k_03i7ok1 => 'သောကြာနေ့';
+	@override String get k_03efxyg => 'စနေနေ့';
+	@override String get k_003q7ba => 'ညနေပိုင်း';
+	@override String get k_003q7bb => 'မနက်ပိုင်း';
+	@override String get k_003pu3h => 'ယခု';
+	@override String get k_0n9pyxz => 'အသုံးပြုသူ မ တည်ရှိပါ';
+	@override String get k_1bjwemh => 'အသုံးပြုသူ ID ကိုရှာပါ';
+	@override String get k_003kv3v => 'ရှာဖွေ';
+	@override String get k_16758qw => 'သူငယ်ချင်း များထည့်ပါ';
+	@override String get k_0i553x0 => 'အတည်ပြု သတင်းအချက်အလက်ဖြည့်ပါ';
+	@override String get k_031ocwx => 'ကျေးဇူးပြု၍ မှတ်ချက်များ နှင့် အုပ်စုများကို ဖြည့်ပါ';
+	@override String get k_003ojje => 'မှတ်ချက်';
+	@override String get k_003lsav => 'အုပ်စုခွဲ';
+	@override String get k_167bdvq => 'ကျွန်တော့်သူငယ်ချင်း';
+	@override String get k_156b4ut => 'သူငယ်ချင်း လျှောက်လွှာ ကို ပို့လိုက်သည်';
+	@override String get k_002r305 => 'ပို့';
+	@override String get k_03gu05e => 'စကားပြောခန်း';
+	@override String get k_03b4f3p => 'ညီလာခံအုပ်စု';
+	@override String get k_03avj1p => 'ပွင့်လင်းသောအဖွဲ့';
+	@override String get k_03asq2g => 'အလုပ် အဖွဲ့';
+	@override String get k_03b3hbi => 'အမည်မသိ အုပ်စု';
+	@override String k_1loix7s({required Object groupType}) => 'အုပ်စု အမျိုးအစား: $groupType';
+	@override String get k_1lqbsib => 'Group Chat မတည်ရှိပါ';
+	@override String get k_03h153m => 'အုပ်စု ID ကိုရှာပါ';
+	@override String get k_0oxak3r => 'အဖွဲ့ လိုက် လျှောက်လွှာ ပို့ပြီးပြီ';
+	@override String get k_002rflt => 'ဖျက်';
+	@override String get k_1don84v => 'မူရင်း မက်ဆေ့ခ်ျ ကိုရှာ မရပါ';
+	@override String get k_003q5fi => 'ကူးယူ ပါ';
+	@override String get k_003prq0 => 'Forward';
+	@override String get k_002r1h2 => 'ရွေးချယ် မှုများစွာ';
+	@override String get k_003j708 => 'ကိုးကား';
+	@override String get k_003pqpr => 'ဆုတ်ခွါ';
+	@override String get k_03ezhho => 'ကူးယူထား';
+	@override String get k_11ctfsz => 'အကောင်အထည် မဖော် နိုင်သေး';
+	@override String get k_1hbjg5g => 'Group မှ စနစ် မက်ဆေ့ခ်ျကို';
+	@override String get k_03tvswb => '[အမည်မသိ မက်ဆေ့ခ်ျ]';
+	@override String get k_155cj23 => 'သင်မက်ဆေ့ခ်ျ ကို ရုပ်သိမ်း လိုက်သည်';
+	@override String get k_0gapun3 => 'ပြန်လည် တည်းဖြတ်';
+	@override String get k_1aszp2k => 'သင် ဤ မက်ဆေ့ခ်ျ ကို ပြန်လည်ပေးပို့လို ပါသလား?';
+	@override String get k_003rzap => 'အတည်ပြုသည်။';
+	@override String get k_003nevv => 'ပယ်ဖျက်';
+	@override String get k_0003z7x => 'ခင်ဗျာ';
+	@override String get k_002wfe4 => 'ဖတ်ပြီးပြီ';
+	@override String get k_002wjlg => 'မ ဖတ်ရသေး';
+	@override String get k_0h1ygf8 => 'ခေါ်ဆို မှုတစ်ခုစတင်ပါ';
+	@override String get k_0h169j0 => 'ခေါ်ဆိုမှု ပယ်ဖျက်ပါ';
+	@override String get k_0h13jjk => 'ခေါ်ဆိုမှု ကိုလက်ခံ ပါ';
+	@override String get k_0h19hfx => 'ခေါ်ဆို မှုကို ငြင်းပယ်ပါ';
+	@override String get k_0obi9lh => 'အချိန်ကုန်';
+	@override String get k_001nmhu => 'အခြား အက်ပ် တွေနဲ့ ဖွင့်ပါ';
+	@override String get k_1ht1b80 => 'ယခုလက်ခံနေစဉ်';
+	@override String get k_105682d => 'ရုပ်ပုံတင်မှု မအောင်မြင်ပါ';
+	@override String get k_0pytyeu => 'ပုံသိမ်းဆည်း မှု အောင်မြင်';
+	@override String get k_0akceel => 'ပုံသိမ်းဆည်း မှု မအောင်မြင်ပါ';
+	@override String get k_003rk1s => 'သိမ်းဆည်းပါ';
+	@override String get k_04a0awq => '[အသံ မက်ဆေ့ခ်ျ]';
+	@override String get k_105c3y3 => 'ဗီဒီယို တင်မှု မအောင်မြင်ပါ';
+	@override String get k_176rzr7 => 'စကားဝိုင်း မှတ်တမ်း';
+	@override String get k_0d5z4m5 => 'သတိ ပေးရန်ရွေးချယ်ပါ';
+	@override String get k_003ngex => 'ပြီးပြီ';
+	@override String get k_1665ltg => 'ခေါ်ဆို မှုတစ်ခု စတင်ပါ';
+	@override String get k_003n8b0 => 'ရိုက်ကူး';
+	@override String get k_003kthh => 'ဓာတ်ပုံ';
+	@override String get k_003tnp0 => 'ဖိုင်';
+	@override String get k_0jhdhtp => 'ပေးပို့ မှု မအောင်မြင် ပါ၊ ဗီဒီယို သည် 100MB ထက်မပို နိုင်ပါ';
+	@override String get k_119ucng => 'ရုပ်ပုံက အလွတ် မဖြစ်ရဘူး';
+	@override String get k_13dsw4l => 'လွှတ်ပြီးပယ်ဖျက်ပါ';
+	@override String get k_0am7r68 => 'သင်၏လက်ချောင်း ကို လျှောပြီး ပေးပို့ခြင်းကိုပယ်ဖျက်ပါ';
+	@override String get k_15jl6qw => 'စကားပြော ရန် အချိန်တို လွန်းသည်!';
+	@override String get k_0gx7vl6 => 'စကားပြော ရန်ဖိထားပါ';
+	@override String get k_15dlafd => 'တစ်ဦးချင်းစီ ပေးပို့ပါ';
+	@override String get k_15dryxy => 'ပေါင်းစည်း forwarding';
+	@override String get k_1eyhieh => 'ရွေးချယ်ထားသော မက်ဆေ့ခ်ျ ကို ဖျက်ရန် သေချာသည်';
+	@override String get k_17fmlyf => 'စကားဝိုင်း ကို ရှင်းပါ';
+	@override String get k_0dhesoz => 'ထိပ်တန်း ကို ပယ်ဖျက်ပါ';
+	@override String get k_002sk7x => 'ထိပ်တန်း ထားရန်';
+	@override String get k_003ll77 => 'မူကြမ်း';
+	@override String get k_03icaxo => 'စိတ်ကြိုက်';
+	@override String get k_1uaov41 => 'Chat content ကိုရှာပါ';
+	@override String get k_003kfai => 'မသိ';
+	@override String get k_13dq4an => 'အလိုအလျောက် ခွင့်ပြုချက်';
+	@override String get k_0l13cde => 'အုပ်ချုပ်ရေးမှူး ခွင့်ပြုချက်';
+	@override String get k_11y8c6a => 'ထပ်ပေါင်းထည့်ခြင်း မရှိပါ';
+	@override String get k_1kvyskd => 'ကွန်ယက် ဆက်သွယ်မှု မရှိပါ၊ ပြုပြင်မွမ်းမံ မရပါ';
+	@override String get k_16payqf => 'အပေါင်း အုပ်စု နည်းလမ်း';
+	@override String get k_0vzvn8r => 'အုပ်စုအမည် ကိုပြုပြင်ပါ';
+	@override String get k_038lh6u => 'Group မှ စီမံခန့်ခွဲ မှု';
+	@override String get k_0k5wyiy => 'စီမံခန့်ခွဲသူ ခန့်ရန်';
+	@override String get k_0goiuwk => 'အားလုံး ပိတ်ပင်ထား';
+	@override String get k_1g889xx => 'တားမြစ်ချက် အပြည့်အစုံ ကိုဖွင့် ပြီးနောက် အုပ်စုပိုင်ရှင် နှင့် အုပ်ချုပ်ရေးမှူး သာ စကားပြောခွင့်ပြုသည်။';
+	@override String get k_0wlrefq => 'တားမြစ်ချက်လိုအပ်သော အဖွဲ့၀င်များ ကိုထည့်ပါ';
+	@override String get k_0goox5g => 'တားမြစ်ချက်ကို သတ်မှတ်ပါ';
+	@override String get k_08daijh => 'စီမံခန့်ခွဲသူ အဆင့်အတန်း ကိုအောင်မြင်စွာဖျက်သိမ်းခြင်း';
+	@override String get k_0k5u935 => 'စီမံခန့်ခွဲသူ ထည့်ပါ';
+	@override String get k_03enyx5 => 'အဖွဲ့၀င်များ';
+	@override String get k_0h1svv1 => 'အဖွဲ့ ၀င်များကို ဖျက်ပါ';
+	@override String get k_0h1g636 => 'အဖွဲ့၀င်များ ကိုထည့်ပါ';
+	@override String get k_0uj7208 => 'ကွန်ယက်ဆက်သွယ် မှုမရှိပါ၊ အဖွဲ့၀င် များကိုကြည့်မရပါ';
+	@override String get k_0hpukyx => 'နောက်ထပ်အဖွဲ့၀င် များကိုကြည့်ပါ';
+	@override String get k_0qtsar0 => 'မက်ဆေ့ခ်ျ နောက်ရှက် ရပ်ရန်';
+	@override String get k_0ef2a12 => 'ကျွန်ုပ်၏အုပ်စု အမည်ပြောင် ကိုပြုပြင်ပါ';
+	@override String get k_1aajych => 'တရုတ်၊ အက္ခရာ များ၊ နံပါတ် များနှင့် မျဉ်းသား များ၊ စကားလုံး ၂-၂၀ သာ';
+	@override String get k_137pab5 => 'ငါ့ အုပ်စု အမည်ပြောင်';
+	@override String get k_0ivim6d => 'အဖွဲ့ လိုက် ကြေငြာချက် မရှိပါ';
+	@override String get k_03eq6cn => 'Group မှ ကြေငြာချက်';
+	@override String get k_002vxya => 'အယ်ဒီတာ';
+	@override String get k_17fpl3y => 'ထိပ်တန်း ချက်တင်';
+	@override String get k_03es1ox => 'အုပ်စု အမျိုးအစား';
+	@override String get k_003mz1i => 'သဘောတူ';
+	@override String get k_003lpre => 'ငြင်းပယ်';
+	@override String get k_003qk66 => 'Profile';
+	@override String get k_003lhvk => 'အမည်ပြောင်';
+	@override String get k_003ps50 => 'အကောင့်';
+	@override String get k_15lx52z => 'ကိုယ်ပိုင် လက်မှတ်';
+	@override String get k_003qgkp => 'ကျား/မ';
+	@override String get k_003m6hr => 'မွှေးနေ့';
+	@override String get k_0003v6a => 'ကျား';
+	@override String get k_00043x2 => 'မ';
+	@override String get k_03bcjkv => 'မသတ်မှတ် ထားပါ';
+	@override String get k_11s0gdz => 'အမည်ပြောင် ကိုပြုပြင်ပါ';
+	@override String get k_0p3j4sd => 'တရုတ် စာလုံး များ၊ အက္ခရာ များ၊ နံပါတ် များနှင့် underscores များသာ';
+	@override String get k_15lyvdt => 'လက်မှတ် ကိုပြုပြင်ပါ';
+	@override String get k_0vylzjp => 'ဒီ လူက ပျင်းရိပြီး ဘာမှမရေးဘူး';
+	@override String get k_1hs7ese => 'အွန်လိုင်းရတဲ့အခါ ဒီ ကိုပြောင်းပါ';
+	@override String get k_03exjk7 => 'မှတ်ချက်အမည်';
+	@override String get k_0s3skfd => 'နာမည်ပျက် စာရင်းသွင်းပါ';
+	@override String get k_0p3b31s => 'မှတ်စု အမည် ကိုပြုပြင်ပါ';
+	@override String get k_0003y9x => 'မရှိဘူး';
+	@override String get k_11zgnfs => 'ကိုယ်ရေး အချက်အလက်';
+	@override String get k_1tez2xl => 'ကိုယ်ပိုင် လက်မှတ် မရှိပါ';
+	@override String get k_118prbn => 'ကမ္ဘာ ချီ ရှာဖွေမှု';
+	@override String get k_1m9dftc => 'အဆက်အသွယ် အားလုံး';
+	@override String get k_0em4gyz => 'အားလုံး အုပ်စုလိုက် chat';
+	@override String get k_002twmj => 'Group Chat';
+	@override String get k_09kga0d => 'နောက်ထပ် chat သမိုင်း';
+	@override String get k_09khmso => 'ဆက်စပ် ချက်တင် မှတ်တမ်း';
+	@override String get k_0vjj2kp => 'အုပ်စုလိုက် စကားပြော ခြင်း မှတ်တမ်း';
+	@override String get k_003n2rp => 'ရွေးချယ် ပါ';
+	@override String get k_03ignw6 => 'အားလုံး';
+	@override String get k_03erpei => 'စီမန်ခံခွဲသူ';
+	@override String get k_0qi9tno => 'အုပ်စု ပိုင်ရှင်，စီမန်ခံခွဲသူ';
+	@override String get k_1m9exwh => 'လတ်တလော ဆက်သွယ်သူများ';
+	@override String get k_119nwqr => 'Input ကို အချည်းနှီး မဖြစ် နိုင်ပါ ';
+	@override String get k_0pzwbmg => 'ဗီဒီယို သိမ်းဆည်း မှု အောင်မြင်';
+	@override String get k_0aktupv => 'ဗွီဒီယို သိမ်းဆည်း မှု မအောင်မြင်ပါ';
+	@override String k_1qbg9xc({required Object option8}) => '$option8 to ';
+	@override String k_1wq5ubm({required Object option7}) => '$option7 changed ';
+	@override String k_0y5pu80({required Object option6}) => 'Group Chat မှထွက် ပါ $option6';
+	@override String k_0nl7cmd({required Object option5}) => 'အုပ်စု ထဲဝင် ရန် $option5 ကို ဖိတ်ခေါ် ပါ';
+	@override String k_1ju5iqw({required Object option4}) => 'အုပ်စု ထဲက $option4 Kick';
+	@override String k_1ovt677({required Object option3}) => 'User $option3 သည် group chat တွင် ပါဝင်သည်';
+	@override String k_0k05b8b({required Object option2}) => '$option2 was ';
+	@override String k_0wm4xeb({required Object option2}) => 'System message $option2';
+	@override String k_0nbq9v3({required Object option2}) => 'စကားပြော ချိန်: $option2';
+	@override String k_0i1kf53({required Object option2}) => '[ဖိုင်] $option2';
+	@override String k_1gnnby6({required Object option2}) => 'သင့်ရဲ့ $option2 သွားရောက် ကြည့်ရှု ချင်တယ်$option2';
+	@override String k_1wh4atg({required Object option2}) => '$option2  မိနစ် ပိုင်း အကြာ';
+	@override String k_07sh7g1({required Object option2}) => 'မနေ့က $option2';
+	@override String k_1pj8xzh({required Object option2}) => ' ကျွန်ုပ်၏ အသုံးပြုသူ ID: $option2';
+	@override String k_0py1evo({required Object option2}) => 'ကိုယ်ပိုင် လက်မှတ်: $option2';
+	@override String k_1kvj4i2({required Object option2}) => '$option2 မက်ဆေ့ခ်ျ ကို ရုပ်သိမ်းလိုက်သည်';
+	@override String k_1v0lbpp({required Object option2}) => '“$option2”ယခုအချိန်တွင် ထိုကဲ့သို့သော ဖိုင်များကို ဖွင့ ်၍ မရ ပါ၊ အခြား အပလီကေးရှင်း များကို ဖွင့်၍ ကြည့်ရှုနိုင်သည်';
+	@override String k_0torwfz({required Object option2}) => 'ရွေးချယ်မှု အောင်မြင်$option2';
+	@override String k_0i1bjah({required Object option1}) => '$option1 recalled a message';
+	@override String k_1qzxh9q({required Object option3}) => 'စကားပြော ချိန်: $option3';
+	@override String k_0wrgmom({required Object option1}) => '[အသံ ခေါ်ဆိုမှု]：$option1';
+	@override String k_06ix2f0({required Object option2}) => '[ဗီဒီယိုခေါ်မှု]：$option2';
+	@override String k_08o3z5w({required Object option1}) => '[ဖိုင်] $option1';
+	@override String k_0ezbepg({required Object option2}) => '$option2[တစ်စုံတစ်ဦး@ ကျွန်ုပ်]';
+	@override String k_1ccnht1({required Object option2}) => '$option2[@ အားလုံး]';
+	@override String k_1k3arsw({required Object option2}) => 'စီမန်ခံခွဲသူ ($option2/10)';
+	@override String k_1d4golg({required Object option1}) => 'အဖွဲ့၀င်များ($option1人)';
+	@override String k_1bg69nt({required Object option1}) => '$option1 members';
+	@override String k_00gjqxj({required Object option1}) => 'ကိုယ်ပိုင် လက်မှတ်: $option1';
+	@override String k_0c29cxr({required Object option1}) => '$option1ဆက်စပ် ချက်တင်မှတ်တမ်း';
+	@override String k_1twk5rz({required Object option1}) => '$option1 နှင့်အတူ chat သမိုင်း';
+	@override String k_1vn4xq1({required Object adminMember}) => '$adminMember Administrator ကို ပယ်ဖျက်ပါ';
+	@override String get k_0e35hsw => 'သင်ရိုက်ကူး ထားသော ဓါတ်ပုံများသို့မဟုတ် ဗွီဒီယို များကို သူငယ်ချင်းများ သို့ပေးပို့ရန်နှင့် ဗီဒီယိုခေါ်မှု ပြုလုပ်ရန် ပိုမိုလွယ်ကူစေရန် ဓာတ်ပုံ များနှင့် ဗွီဒီယိုများ ရိုက်ကူးရန် ကင်မရာကိုသွားခွင့်ပြုပါ။';
+	@override String get k_0dj6yr7 => 'အသံမက်ဆေ့ခ်ျများ၊ဗွီဒီယိုများနှင့် အသံဗီဒီယိုခေါ်မှုများ ပေးပို့ရန် ပိုမိုလွယ်ကူစေရန် မိုက်ခရိုဖုန်း ဖြင့် မှတ်တမ်းတင်ပါ။';
+	@override String get k_003qnsl => 'Storage';
+	@override String get k_0s3rtpw => '为方便您查看和选择相册里的图片视频发送给朋友，以及保存内容到设备，请允许我们访问您设备上的照片、媒体内容。';
+	@override String k_0tezv85({required Object option2}) => ' လျှောက်လွှာ ရယူပါ$option2';
+	@override String get k_002rety => ' permission. ';
+	@override String get k_18o68ro => 'ပေးရန်လိုသည်။';
+	@override String get k_1onpf8u => ' ဓာတ်ပုံများ၊ဗွီဒီယိုများ၊ဗီဒီယိုခေါ်မှုများနှင့် အခြားလုပ်ဆောင်ချက်များကိုပုံမှန် အသုံးပြုရန်အတွက် ကင်မရာခွင့်ပြုချက် ။';
+	@override String get k_17irga5 => ' အသံမက်ဆေ့ခ်ျများပို့ခြင်း၊ဗွီဒီယိုရိုက်ခြင်း၊ အသံ ဗီဒီယိုခေါ်မှု နှင့်အခြား လုပ်ဆောင်ချက်များကိုပုံမှန်အသုံးပြုရန်မိုက်ခရိုဖုန်းခွင့်ပြုချက် ။';
+	@override String get k_0572kc4 => ' ပုံမှန် အသုံးပြုရန်အတွက် ဓာတ်ပုံများ၊ ဗွီဒီယိုများပေးပို့ခြင်းနှင့်အခြားလုပ်ဆောင်ချက်များအတွက် ဓာတ်ပုံခွင့်ပြုချက်များ ကိုရယူပါ';
+	@override String get k_0slykws => ' ဓာတ်ပုံများ၊ဗွီဒီယိုများနှင့်အခြားလုပ်ဆောင်မှုများကို သိမ်းဆည်း ရန်ပုံမှန် အသုံးပြုရန်အတွက် အယ်လ်ဘမ်ရေးရန် ခွင့်ပြုချက် ကိုရယူပါ';
+	@override String get k_119pkcd => ' ပုံမှန်အားဖြင့် chat function တွင် ရုပ်ပုံ များ ကိုကြည့်ရှု ရန်၊ ရွေးချယ် ရန်နှင့် ပို့ ရန်အတွက် ဖိုင် ဖတ်ခြင်းနှင့် ရေးသားခြင်း ခွင့်ပြုချက်များ။';
+	@override String get k_0gqewd3 => 'နောက်မှ ပြောပါ';
+	@override String get k_03eq4s1 => 'သွား ဖွင့်ပါ';
+	@override String get k_0nt2uyg => 'နောက်ဆုံး အနေအထား သို့ပြန် သွားပါ ';
+	@override String k_04l16at({required Object option1}) => '$option1 သတင်းစကား အသစ်';
+	@override String get k_13p3w93 => 'တစ်စုံတစ်ဦး@ ကျွန်ုပ်';
+	@override String get k_18w5uk6 => '@ အားလုံး';
+	@override String get k_0jmujgh => 'အခြား ဖိုင် များ လက်ခံရရှိ နေသည်';
+	@override String get k_12s5ept => ' မက်ဆေ့ချ် အသေးစိတ်';
+	@override String k_0mxa4f4({required Object option1}) => '$option1 ယောက်ဖတ်ပြီးပြီ';
+	@override String k_061tue3({required Object option2}) => '$option2ယောက် မဖတ်ပြီး';
+	@override String get k_18qjstb => 'အုပ်စုပိုင်ရှင် လွှဲပြောင်း ';
+	@override String k_0on1aj2({required Object option2}) => '$option2 @ I မက်ဆေ့ချ် ရှိသည်';
+	@override String get k_09j4izl => '[တစ်စုံတစ် ဦး @ ကျွန်ုပ်] ';
+	@override String get k_1oqtjw0 => '[@ အားလုံး] ';
+	@override String k_1x5a9vb({required Object option1}) => 'This is: $option1';
+	@override String get k_14n31e7 => 'အဖွဲ့ ဝင် တောင်းဆိုမှု';
+	@override String k_08nc5j1({required Object option1}) => 'အုပ်စု အမျိုးအစား: $option1';
+	@override String k_1josu12({required Object option1}) => '$option1 အုပ်စုဝင် တောင်းဆိုမှု';
+	@override String k_0n2x5s0({required Object option2}) => ' Authentication ကို မက်ဆေ့ခ်ျ ကို: $option2';
+	@override String get k_03c1nx0 => 'သေဘာတူ';
+	@override String get k_03aw9w8 => 'ငြင်းပယ် ခံရ';
+	@override String get k_038ryos => 'ကိုင်တွယ် ဖြေရှင်းဖို့';
+	@override String get k_0gw8pum => 'အဖွဲ့ ဝင်လျှောက်လွှာ';
+	@override String get k_1gcvfrj => 'ကျေးဇူး ပြုပြီး မှတ်ချက်များကိုဖြည့်ပါ';
+	@override String get k_002v9zj => 'အတည်ပြု';
+	@override String get k_10oqrki => 'ထိပြီး ဓာတ်ပုံရိုက်ပါ';
+	@override String get k_0f8b3ws => 'Loading in... မအောင်မြင်ပါ';
+	@override String get k_11cm5lm => 'လက်စွဲ  focus';
+	@override String get k_002uzrd => 'Preview ကို';
+	@override String get k_003qkn3 => ' ကြိုကြည့်';
+	@override String get k_003k6a7 => 'ဓာတ်ပုံရိုက် ပါ';
+	@override String get k_0bqpqco => 'ဓါတ်ပုံရိုက် Button';
+	@override String get k_1626ozl => 'ဗီဒီယိုရိုက်ခြင်း ကို ရပ်ပါ';
+	@override String get k_003lvmu => 'ရှေ့';
+	@override String get k_003lued => 'နောက်ဘက်';
+	@override String get k_003lwzh => 'ပြင်ပ';
+	@override String get k_002qzi3 => 'ပိတ်';
+	@override String get k_003pufb => 'အလို အလျှောက်';
+	@override String get k_0apm0ze => 'ဓာတ်ပုံရိုက် နေစဉ် လျှပ်တပြက်မီး';
+	@override String get k_157zog5 => ' အမြဲ လျှပ်တပြက်မီး';
+	@override String k_0cfyqhy({required Object option1}) => '$option1 Screen Preview';
+	@override String k_0phctlz({required Object option2}) => 'Flash Mode : $option2';
+	@override String k_02vfqe0({required Object option3}) => '$option3 ကင်မရာ သို့ပြောင်း ပါ';
+	@override String get k_0f0y9ex => 'စကားပြောအချိန် တိုလွန်းသည်';
+	@override String get k_0ln70tk => 'URL ကို ဖွင့် လို့ မရဘူး';
+	@override String get k_11a3jdv => 'ထိပြီးဓာတ်ပုံရိုက်ပါ';
+	@override String get k_1k18miv => 'ပင်မ စာမျက်နှာ သို့မဟုတ်အခြား စာမျက်နှာ သို့ပြန် သွားရန် လမ်းညွှန် နည်းလမ်းတစ်ခု ပေးရန် အုပ်စု မှထွက်ခွာ သည့် ဘဝသံသရာလည်ပတ်မှု ကိုဖြတ်သန်းပါ။';
+	@override String get k_0gmwbnd => 'တားမြစ် ချက် အပြည့်အဝ';
+	@override String get k_0got2zr => 'မင်းကို စကားပြော ပိတ်ပင် ထားတယ်';
+	@override String get k_0y9jck8 => 'search bar ကို စိတ်ကြိုက် ပြုပြင် ပြီး click-jump ကိုကိုင်တွယ် ရမယ်';
+	@override String get k_0yum3tv => 'စိတ်ကြိုက် area ရိယာ ကိုအသုံးပြု ရန်အတွက် သက်ဆိုင်ရာ အစိတ် အပိုင်းကို profileWidgetBuilder တွင် သွားပါ';
+	@override String get k_09kalj0 => 'Chat history ကို ရှင်း ပါ';
+	@override String get k_14j5iul => 'ဖျက် ပြီး ထွက် ပါ';
+	@override String get k_125ru1w => ' အုပ်စု ဖျက်သိမ်း';
+	@override String get k_0jtutmw => 'ထွက်ပေါက် ပြီးနောက် ဤ အုပ်စုလိုက် စကားဝိုင်း မက်ဆေ့ခ်ျ ကိုလက်ခံရရှိ လိမ့်မည်မဟုတ် ပါ';
+	@override String get k_0jtzmqa => 'ဖျက်သိမ်း ပြီးနောက် ဤ အုပ်စု chat မက်ဆေ့ခ်ျ ကိုလက်ခံရရှိ လိမ့်မည်မဟုတ် ပါ';
+	@override String get k_0r8fi93 => 'Friend Add Successful';
+	@override String get k_02qw14e => 'သူငယ်ချင်း လျှောက်လွှာ ထုတ်ပေး သည်';
+	@override String get k_0n3md5x => 'လက်ရှိ သုံးစွဲ သူများသည် နာမည်ပျက် စာရင်း ထဲတွင် ရှိသည်';
+	@override String get k_094phq4 => 'သူငယ်ချင်း ပေါင်းထည့် မှု မအောင်မြင် ပါ';
+	@override String get k_129scag => 'သူငယ်ချင်း ဖျက် မှု အောင်မြင်';
+	@override String get k_129uzfn => 'သူငယ်ချင်း ဖျက် မှု မအောင်မြင် ပါ';
+	@override String get k_1666isy => 'မိတ်ဆွေ များကို ရှင်းလင်း ပါ';
+	@override String get k_1679vrd => 'သူငယ်ချင်း အဖြစ် ထည့် ပါ';
+	@override String get k_0h18bbi => 'ခေါ်ဆို မှုကို အဆုံးသတ် ပါ';
+	@override String get k_154q2hn => 'ခေါ်ဆိုမှုအချိန်ကုန် မကိုင်ပါ';
+	@override String get k_1mnjtnc => 'အခြား ပါတီ ချိတ်ဆွဲ ထားသည်';
+	@override String get k_0l0mysn => 'အမှား တစ်ခု ဖြစ်ပွား ခဲ့သည်:';
+	@override String get k_03fn6rg => ' တုံ့ပြန် မှုမရှိ';
+	@override String get k_003luo3 => 'အလုပ်များ လိုင်းမအား';
+	@override String get k_154jvfi => ' သင့်ကိုအော့ဖ်လိုင်း ကန်ခဲ့ကြသည်';
+	@override String get k_1sp7jp6 => 'ခေါ်ဆိုမှု ကိုဖျက်သိမ်း လိုက် သည်';
+	@override String get k_1045haa => ' ဖိတ်ကြား ချက် ကိုလက်ခံ ရန် အခြား ပါတီကို စောင့် နေ...';
+	@override String get k_1gq7jv7 => 'ခေါ်ရန်သင့်အား ဖိတ်ခေါ်သည်...';
+	@override String get k_003m7ey => 'ဖုန်းချလိုက်သည်';
+	@override String get k_03ectox => 'စပီကာ';
+	@override String get k_003q2a4 => 'ဖြေ';
+	@override String get k_03ftugq => 'Camera';
+	@override String get k_10setgr => 'အသံ ခေါ်ဆိုမှု ကိုဖြတ် ပါ';
+	@override String get k_1g7i9jz => 'ကင်မရာ ပြောင်း ပါ';
+	@override String get k_15ml1ls => 'အဖြေ ကို စောင့် ပါ';
+	@override String get k_0nj9x9s => 'Multiplayer ခေါ်ဆိုမှု တွင်ပါဝင် ရန် သင့်အား ဖိတ်ခေါ် ပါ';
+	@override String get k_1vtto3l => 'ခေါ်ဆို မှုတွင်ပါ၀င်ပါ:';
+	@override String get k_0h147mx => 'စကားပြော နေ';
+	@override String k_0j6aylo({required Object option1}) => 'စကားပြော ချိန်:$option1';
+	@override String get k_1fu9ahv => 'အပြည့်အဝ ပိတ်ပင် ထား status ကို';
+	@override String get k_1ualc52 => 'အခြား ပါတီမှ ယူဆောင် လာသည့် အချက်အလက်များကို ကြည့်ပါ';
+	@override String get k_0szluvp => 'အခြား ပါတီ ၏အွန်လိုင်း အခြေအနေ ကိုသတ်မှတ် ပါ';
+	@override String get k_0f4rnf8 => 'အသုံးပြုသူသည် သူငယ်ချင်း ဖြစ်သည်';
+	@override String get k_1tdkom4 => 'သင်သည်အုပ်စုတစ်စု အဖွဲ့ဝင်တစ်ဦးဖြစ်သည်';
+	@override String get k_1p2lyuz => 'သင့်ကို...';
+	@override String k_1g8wfpy({required Object option1}) => '...total $option1';
+	@override String get k_12rv9vw => 'တုံ့ပြန်မှု အသေးစိတ်';
+	@override String get k_0n9p7g8 => 'အုပ်စု မတည် ရှိပါ';
+	@override String get k_1tdh5vn => 'သင် အဖွဲ့၀င် မဟုတ်ပါ';
+	@override String get k_0h1q57v => 'အဖွဲ့ ၀င်မရှိပါ';
+	@override String k_0y5drq1({required Object option1}) => '[အသေးစိတ်ကြည့်ရန် >>]($option1)';
+	@override String get k_03pjp61 => '[Emoji မက်ဆေချ်]';
+	@override String get k_1jpvzul => '[စိတ်ကြိုက်မက်ဆေချ်]';
+	@override String get k_03u3bh1 => '[ဖိုင် မက်ဆေ့ခ်ျ]';
+	@override String get k_1odsnsw => '[Group Message]';
+	@override String get k_03sel4t => '[ဓာတ်ပုံမက်ဆေချ်]';
+	@override String get k_03sfw3r => '[တည်နေရာ သတင်းစကား]';
+	@override String get k_03xpuwq => '[Message ကို ပေါင်း ပါ]';
+	@override String get k_07ycxwo => '[ဒြပ်စင် မရှိပါ]';
+	@override String get k_03rc9vz => '[စာသား မက်ဆေ့ခ်ျ]';
+	@override String get k_046uopf => '[ ဗီဒီယို မက်ဆေ့ခ်ျ များ]';
+	@override String get k_0ehmsun => 'ကိရိယာသိုလှောင်ရန်နေရာ မလုံလောက်ပါ၊ပိုမိုကောင်းမွန်သော အတွေ့အကြုံအတွက် သန့်ရှင်းရေးလုပ်ရန် အကြံပြုပါသည်';
+	@override String get k_003kmos => 'Image';
+	@override String get k_002s86q => 'Video';
+	@override String get k_06bk5ei => 'ဗီဒီယို မက်ဆေ့ခ်ျ များကို mp4 format ဖြင့်သာ ကန့်သတ် ထားသည်';
+	@override String get k_13opfxf => 'ဝက်ဘ် စာမျက်နှာ ပေါ်တွင် ရှာဖွေခြင်းကို မပံ့ပိုးပါ';
+	@override String get k_1i0o0y2 => 'Android/iOS အတွက် သာ ယာယီ';
+	@override String k_045dtzl({required Object option1}) => '$option1 စကားပြော မှတ်တမ်း';
+	@override String get k_0t0131u => 'အုပ်စု ဒေတာ သတင်းအချက်အလက်';
+	@override String get k_18ok8xz => ' မက်ဆေ့ခ်ျ ကိုလက်ခံ ခြင်းနည်းလမ်း';
+	@override String get k_03ax3ks => ' Group မှ ဒေတာ';
+	@override String k_0sqvoqo({required Object option1}) => ' $option1 စီမန်ခံခွဲသူ အဖြစ် သတ်မှတ်';
+	@override String k_1gbg1v8({required Object option1}) => ' $option1  စီမန်ခံခွဲသူ ကို ပယ်ဖျက်ပါ';
+	@override String get k_17k64g4 => 'Group Chat ဖန်တီး မှုသည် အောင်မြင် ပါသည်။';
+	@override String get k_05mn217 => 'Emoji pack plugin ကိုတပ်ဆင် ထား ခြင်းမရှိသေးပါ။ အကယ်၍ သင်သည် emoji နှင့်သက်ဆိုင်သော လုပ်ဆောင်ချက်များ ကိုအသုံးပြုရန် လိုအပ်ပါက ကျေးဇူးပြု၍ ဤ စာရွက်စာတမ်း နှင့်အညီထည့်သွင်း ပါ';
+	@override String get k_14j17nz => 'Emoji အထုပ် မရှိပါ';
+	@override String get k_1tmlcf0 => 'ခေါ်ဆိုမှု အသစ်တစ်ခု ဝင်လာ သော်လည်း ခွင့်ပြုချက် မလုံလောက် သောကြောင့် မ ဖြေ နိုင်ပါ။ ကင်မရာ/မိုက်ကရို ဖုန်း ခွင့်ပြု ချက်များ ဖွင့် ထားကြောင်း သေချာ ပါစေ။';
+	@override String get k_0fvjexh => 'ဒေါင်းလုပ် လုပ် နေသည်';
+	@override String get k_1cdagzz => 'Download လုပ်ရန် တန်းစီ နှင့်အခြား ဖိုင်များကို ဒေါင်းလုပ် လုပ် သည်';
+	@override String get k_0g4vojc => 'ဒေါင်းလုပ် စတင် ပါ';
+	@override String get k_026hiq5 => ' မက်ဆေ့ခ်ျ ကို စာရင်း loaded ဖြစ်ပါတယ်';
+	@override String get k_0b9q00i => '腾讯大厦/////深圳市南山区深南大道10000号';
+	@override String get k_03fw6h1 => 'ရှန်ကျန်း';
+	@override String get k_0f7mdn7 => 'ပြန်လည်ရယူ ခြင်း မအောင်မြင် ပါ';
+	@override String get k_158cssa => 'Tencent မြေပုံ';
+	@override String get k_157htdw => ' Gaode မြေပုံ';
+	@override String get k_157im4z => ' Baidu မြေပုံ';
+	@override String get k_157m20e => 'ပန်းသီး မြေပုံ';
+	@override String get k_1bqk7kl => 'Gaode မြေပုံ ကိုရှာ မတွေ့ ပါ';
+	@override String get k_12ba1nv => 'Tencent မြေပုံ မတွေ့ ပါ';
+	@override String get k_1dz8sci => ' Baidu မြေပုံ ကိုရှာ မတွေ့ ပါ';
+	@override String get k_0f7fvky => 'အဖွင့် မအောင်မြင် ပါ';
+	@override String get k_1l2v0we => 'Tencent အဆောက်အအုံ အတွင်း ၊ China Merchants Bank Information R & D အဆောက်အအုံ အနီး ၁၈ မီတာ';
+	@override String get k_10o8gk2 => '搜索地 နေရာ ရှာပါ点';
+	@override String get k_10o86v7 => 'အမည်မသိ နေရာ';
+	@override String get k_0elt0kw => 'Group Chat ထည့် ပါ';
+	@override String get k_03f15qk => 'အမည်ပျက် စာရင်း';
+	@override String get k_0s3p3ji => 'အမည်ပျက် စာရင်း မရှိ သေးပါ';
+	@override String get k_0uc5cnb => '我们还在内测中，暂不支持创ကျွန်ုပ်တို့သည် အတွင်းပိုင်းစမ်းသပ်ဆဲဖြစ်ပြီးချန်နယ်များဖန်တီးခြင်းကိုမ ထောက်ပံ့ပါ建频道。';
+	@override String get k_0s5ey0o => 'အချိန်နှင့်တပြေးညီ အသံ နှင့် ဗွီဒီယို TRTC';
+	@override String get k_03gpl3d => 'အားလုံး မင်္ဂလာပါ';
+	@override String get k_0352fjr => 'ကွန်ယက် ချိတ်ဆက် မှုမရှိ ပါ၊ ချန်နယ် ဆက်သွယ်မှု မအောင်မြင် ပါ';
+	@override String get k_0d7n018 => 'ခေါင်းစဉ် ကို အဆုံးသတ် ပါ';
+	@override String get k_0d826hk => ' ထိပ်တန်း ခေါင်းစဉ်';
+	@override String get k_15wcgna => 'အောင်မြင်မှုကို အဆုံးသတ်ခဲ့သည်';
+	@override String get k_15wo7xu => 'ထိပ်တန်း အောင်မြင်မှု';
+	@override String k_02slfpm({required Object errorMessage}) => 'အမှား တစ်ခု ဖြစ်ပွား ခဲ့သည် $errorMessage';
+	@override String get k_0h22snw => 'အသံ ခေါ်ဆိုမှု';
+	@override String get k_0h20hg5 => 'ဗီဒီယိုခေါ်မှု';
+	@override String get k_002s934 => 'ခေါင်းစဉ်';
+	@override String get k_18g3zdo => '云通信·IM';
+	@override String get k_1m8vyp0 => 'အဆက်အသွယ် အသစ်';
+	@override String get k_0elz70e => 'ကျွန်ုပ်၏ အုပ်စု chat';
+	@override String get k_18tb4mo => 'အဆက်အသွယ် မရှိ';
+	@override String get k_18nuh87 => 'ဆက်သွယ်ရန်';
+	@override String get k_1uf134v => 'တုံ့ပြန် ချက်နှင့် အကြံပြုချက်များကို QQ အုပ်စု တွင်ထည့်သွင်း နိုင်သည်-788910197 ';
+	@override String get k_0xlhhrn => 'အွန်လိုင်း အချိန်၊ တနင်္လာနေ့ မှ သောကြာ နေ့၊ နံနက် ၁၀ နာရီမှ ည ၈ နာရီ';
+	@override String get k_0gmpgcg => 'စကားဝိုင်း မရှိသေးပါ';
+	@override String get k_1m8zuj4 => 'ဆက်သွယ်ရန် ရွေးပါ';
+	@override String get k_002tu9r => 'စွမ်းဆောင်ရည်';
+	@override String k_0vwtop2({required Object getMsg}) => 'ရရှိသော မက်ဆေ့ခ်ျ: $getMsg';
+	@override String k_0upijvs({required Object message}) => 'ဆွေးနွေး ခန်း စာရင်း ရယူ ခြင်း မအောင်မြင် ပါ $message';
+	@override String get k_1tmcw5c => 'ကျေးဇူး ပြုပြီး ခေါင်းစဉ် ကို ဖြည့် ပါ';
+	@override String get k_1cnmslk => 'တံဆိပ် တစ်ခု ရွေး ရမည်';
+	@override String k_0v5hlay({required Object message}) => 'ခေါင်းစဉ်များ ဖန်တီးရာတွင် မအောင်မြင်မှု $message';
+	@override String get k_0z3ytji => 'ခေါင်းစဉ် များ ဖန်တီးရာတွင် အောင်မြင်မှု';
+	@override String get k_1a8vem3 => 'Creator  ခြွင်းချက်';
+	@override String get k_0eskkr1 => 'ဆွေးနွေးမှု ဖိုရမ် ကိုရွေးချယ် ပါ';
+	@override String get k_0d7plb5 => 'ခေါင်းစဉ် ဖန်တီး ပါ';
+	@override String get k_144t0ho => '---- 相关讨论 ----';
+	@override String get k_0pnz619 => 'ခေါင်းစဉ် ခေါင်းစဉ်ဖြည့်ပါ';
+	@override String get k_136v279 => '+ tag (အနည်းဆုံး တစ်ခု ထည့် ပါ)';
+	@override String get k_04hjhvp => 'ဆွေးနွေးမှု parameter သည် ခြွင်းချက်';
+	@override String get k_002r79h => 'အားလုံး';
+	@override String get k_03ejkb6 => 'ပူးပေါင်း';
+	@override String get k_172tngw => ' ခေါင်းစဉ် (ချိတ် ဆက်မ ထားပါ)';
+	@override String get k_0rnmfc4 => 'ဒီ ဖိုရမ် အောက်မှာ ခေါင်းစဉ် မရှိပါ';
+	@override String get k_1pq0ybn => 'မည်သည့် ခေါင်းစဉ် မှ မထည့် ရသေး ပါ';
+	@override String get k_0bh95w0 => 'အင်တာနက် ဆက်သွယ် မှုမရှိပါ၊ခေါင်းစဉ်ထဲသို့၀င်ရောက်ခြင်းမအောင်မြင် ပါ';
+	@override String get k_0em28sp => 'အုပ်စုလိုက် စကားဝိုင်း မရှိပါ';
+	@override String get k_04dqh36 => 'အဆက်အသွယ် အသစ် မရှိပါ';
+	@override String get k_08k00l9 => 'Loading လုပ်နေ ပါတယ်...';
+	@override String get k_197r4f7 => 'လက်ငင်း စာတို ပေးပို့ ရေး ဝန်ဆောင်မှု ဆက်သွယ်မှု အောင်မြင် ခဲ့သည်';
+	@override String get k_1s5xnir => 'လက်ငင်း စာတို ပေးပို့ ရေး SDK စတင် မအောင်မြင် ပါ';
+	@override String k_0owk5ss({required Object failedReason}) => 'ဝင်ရန် မအောင်မြင် ပါ $failedReason';
+	@override String get k_15bxnkw => 'ကွန်ယက် ဆက်သွယ်မှု ပျောက်ဆုံး နေသည်';
+	@override String get k_0glj9us => 'စကား စတင်ခြင်း';
+	@override String get k_1631kyh => 'အလုပ် အဖွဲ့ တစ်ခုဖန်တီး ပါ';
+	@override String get k_1644yii => ' လူမှုရေး အုပ်စု များကိုဖန်တီး ပါ';
+	@override String get k_1fxfx04 => 'အစည်းအဝေး အုပ်စု တစ်ခုဖန်တီး ပါ';
+	@override String get k_1cnkqc9 => 'တိုက်ရိုက်အုပ်စု တစ်ခုဖန်တီးပါ';
+	@override String get k_002r09z => 'ချန်နယ်';
+	@override String get k_003nvk2 => 'မက်ဆေ့ချ်';
+	@override String get k_1jwxwgt => 'Connected in...';
+	@override String get k_03gm52d => 'လိပ်စာ စာအုပ်';
+	@override String get k_003k7dc => 'ကျွနု်ပ်';
+	@override String get k_14yh35u => 'Login · လက်ငင်း စာတို ပေးပို့ ရေး';
+	@override String get k_0st7i3e => 'Group chat ၊ audio နှင့် video dialog စသည့် IM လုပ်ဆောင်ချက်များကို တွေ့ကြုံ ခံစား ပါ';
+	@override String get k_0cr1atw => '中国大陆';
+	@override String get k_0mnxjg7 => '欢迎使用腾讯云即时通信 IM，为保护您的个人信息安全，我们更新了《隐私政策》，主要完善了收集用户信息的具体内容和目的、增加了第三方SDK使用等方面的内容。';
+	@override String get k_1545beg => ' ကျေးဇူးပြု၍ နှိပ် ပါ';
+	@override String get k_0opnzp6 => 'အသုံးပြုသူ protocol ကို';
+	@override String get k_00041m1 => ' နှင့်';
+	@override String get k_0orhtx0 => ' Privacy ကို သဘောတူညီချက်';
+	@override String get k_11x8pvm => 'ဂရုတစိုက်ဖတ်ပါ၊ အထက်ပါကို သင်သဘောတူ ပါက ကျွန်ုပ်တို့၏ ထုတ်ကုန်များနှင့် ၀န်ဆောင်မှုများကိုစတင် အသုံးပြုရန် \'Agree and Continue\' ကိုနှိပ်ပါ။';
+	@override String get k_17nw8gq => 'သဘောတူပြီး ဆက်သွားပါ';
+	@override String get k_1nynslj => 'သဘောမတူခြင်းနှင့် ဆုတ်ခွာ';
+	@override String get k_0jsvmjm => 'ကျေးဇူးပြု၍ သင်၏ ဖုန်းနံပါတ် ကိုရိုက် ထည့် ပါ';
+	@override String get k_1lg8qh2 => 'မိုဘိုင်း ဖုန်းနံပါတ် မမှန်ကန်ပါ';
+	@override String get k_03jia4z => 'ကွန်ယက် ချိတ်ဆက်မှု မရှိပါ';
+	@override String get k_007jqt2 => 'အတည်ပြု ကုဒ် ကိုအောင်မြင်စွာ ပေးပို့ ခဲ့သည်';
+	@override String get k_1a55aib => 'အတည်ပြု ကုဒ် ချွင်းယွင်းချက်';
+	@override String k_1mw45lz({required Object errorReason}) => 'ဝင်ရန် မအောင်မြင်ပါ$errorReason';
+	@override String get k_16r3sej => 'နိုင်ငံ/ဒေသ';
+	@override String get k_15hlgzr => 'သင့် နိုင်ငံ code ရိယာ ကုဒ် ကိုရွေးချယ် ပါ';
+	@override String get k_1bnmt3h => 'ကျေးဇူးပြု၍ အင်္ဂလိပ်လိုရှာပါ';
+	@override String get k_03fei8z => 'မိုဘိုင်း ဖုန်းနံပါတ်';
+	@override String get k_03aj66h => 'အတည်ပြု ကုဒ်';
+	@override String get k_1m9jtmw => 'ကျေးဇူး ပြုပြီး အတည်ပြု ကုဒ် ရိုက်ထည့်ပါ';
+	@override String get k_0y1wbxk => 'အတည်ပြုကုဒ် ရယူ ပါ';
+	@override String get k_002ri2g => ' ဝင်ပါ';
+	@override String get k_161ecly => 'လောလောဆယ် ကွန်ယက် မရှိပါ ';
+	@override String get k_11uz2i8 => 'ကွန်ယက် ကိုပြန်လည် ဆက်သွယ်ကြည့်ပါ။';
+	@override String get k_1vhzltr => 'Tencent Cloud Instant Messaging IM';
+	@override String get k_0j433ys => ' Tencent Cloud TRTC';
+	@override String get k_0epvs61 => 'Replace skin';
+	@override String get k_12u8g8l => 'မသက်ဆိုင် ကြောင်း ရှင်းလင်းချက်';
+	@override String get k_1p0j8i3 => 'IM即时通信（\'本产品\'）是由腾讯云提供的一款测试产品，腾讯云享有本产品的著作权和所有权。本产品仅用于功能体验，不得用于任何商业用途。为配合相关部门监管要求，本产品音视频互动全程均有录音录像存档，严禁在使用中有任何色情、辱骂、暴恐、涉政等违法内容传播。';
+	@override String get k_0k7qoht => 'မည်သည့် အသုံးပြု သူနှင့် သူငယ်ချင်း ကိုမဆို သဘောတူပါ';
+	@override String get k_1j91bvz => 'TUIKIT သည် သင့် အတွက် avatar တစ်ခု ကိုရွေးချယ်သည်';
+	@override String get k_1wmkneq => 'ငါ မိတ်ဆွေတစ်ဦး အဖြစ် ထည့်သွင်း သောအခါ အတည်ပြု ရန်လိုအပ် သည်';
+	@override String get k_1eitsd0 => '关于腾讯云·通信';
+	@override String get k_1919d6m => 'သီးသန့် တည်ရှိမှု စည်းမျဉ်းများ';
+	@override String get k_0wqhgor => 'ကိုယ်ရေးကိုယ်တာ အချက်အလက် စုဆောင်းခြင်း စာရင်း';
+	@override String get k_12rfxml => 'တတိယ ပါတီ သတင်းအချက်အလက် မျှဝေခြင်း စာရင်း';
+	@override String get k_131g7q4 => 'အကောင့် ကို ပယ်ဖျက်ပါ';
+	@override String get k_03fel2u => 'ဗားရှင်း နံပါတ်';
+	@override String get k_16kts8h => 'လော့ ဂ်အင် ထွက်ပါ';
+	@override String get k_13spdki => 'မက်ဆေ့ချ် ပို့ပါ';
+	@override String get k_14c600t => 'မှတ်စု များကိုပြုပြင်ပါ';
+	@override String get k_1f811a4 => 'နံပါတ် များ၊ အင်္ဂလိပ် ၊ မျဉ်းသား များကိုထောက်ပံ့ သည်';
+	@override String get k_11z7ml4 => 'အသေးစိတ်';
+	@override String get k_1ajt0b1 => 'လက်ရှိ တည်နေရာ ရရှိရန် မအောင်မြင်ပါ';
+	@override String get k_0lhm9xq => 'အောင်မြင်သော ရှာဖွေမှု ကိုစတင်ပါ';
+	@override String get k_0fdeled => 'ရှာဖွေမှု တစ်ခု စတင်ရန် မ အောင်မြင်ပါ';
+	@override String get k_1yh0a50 => 'မြေပုံတင်ခြင်း ပြီးဆုံးသည်';
+	@override String get k_1t2zg6h => 'ရုပ်ပုံ အတည်ပြုကုဒ် စစ်ဆေးမှု မအောင်မြင်ပါ';
+	@override String get k_03ibfd2 => 'တနင်္ဂနွေနေ့';
+	@override String k_1o7lf2y({required Object errorMessage}) => 'ဆာဗာ အမှား: $errorMessage';
+	@override String k_118l7sq({required Object requestErrorMessage}) => 'တောင်းဆိုမှု အမှား: $requestErrorMessage';
+	@override String get k_003nfx9 => 'နက်နဲ့';
+	@override String get k_003rvjp => '轻快';
+	@override String get k_003rtht => '明媚';
+	@override String get k_003qxiw => '梦幻';
+	@override String k_0s5zoi3({required Object option1}) => 'အမှားတစ်ခု ဖြစ်ပွားခဲ့သည် $option1';
+	@override String k_0i8egqa({required Object option8}) => 'ရရှိလာတဲ့ သတင်းစကား:$option8';
+	@override String k_0pokyns({required Object option8}) => 'ဆွေးနွေး ခန်းစာရင်း ရရှိရန် မအောင်မြင်ပါ $option8';
+	@override String k_1y03m8a({required Object option8}) => 'ခေါင်းစဉ် ဖန်တီးခြင်း မအောင်မြင်ပါ $option8';
+	@override String k_1v6uh9c({required Object option8}) => 'ဝင်ရန် မအောင်မြင်ပါ $option8';
+	@override String k_0t5a9hl({required Object option1}) => 'ဝင်ရန် မအောင်မြင်ပါ $option1';
+	@override String k_0k3uv02({required Object option8}) => 'ဆာဗာ အမှား：$option8';
+	@override String k_1g9o3kz({required Object option8}) => 'ရရှိလာတဲ့ $option8';
+	@override String get k_14cahuz => '关于腾讯云 · IM';
+	@override String get k_0llnalm => 'SDK版本号';
+	@override String get k_13dyfii => '应用版本号';
+	@override String get k_12h52zh => '隐私政策';
+	@override String get k_0fxhhwb => '用户协议';
+	@override String get k_18z2e6q => 'IM即时通信（\'本产品\'）是由腾讯云提供的一款测试产品，腾讯云享有本产品的著作权和所有权。本产品仅用于功能体验，不得用于任何商业用途。严禁在使用中有任何色情、辱骂、暴恐、涉政等违法内容传播。';
+	@override String get k_0zu7dd7 => 'သတင်းအချက်အလက် စုဆောင်းခြင်း စာရင်း';
+	@override String get k_0mcqhgh => 'သတင်းအချက်အလက် မျှဝေခြင်း စာရင်း';
+	@override String get k_12eqaty => 'အကောင့် ဖျက်သိမ်း မှု ကိုအတည်ပြုပါ';
+	@override String get k_0ziqsr6 => 'အကောင့် ဖျက်သိမ်း မှု အောင်မြင် ခဲ့သည်';
+	@override String get k_002qtgt => 'ဖျက်သိမ်းပါ\'';
+	@override String k_0rvdu91({required Object option1}) => 'အကောင့် ဖျက်သိမ်း လုပ်ပြီးရင် လက်ရှိ အကောင့်ကိုသုံးလို့မရတော့ဘဲ သက်ဆိုင်ရာ ဒေတာတွေကို ဖျက်ပြီးပြန် မရနိုင်တော့ ပါဘူး။လက်ရှိ အကောင့် ID $option1';
+	@override String get k_15d22qk => 'အကောင့် ဖျက်သိမ်းပါ';
+	@override String get k_036uv3f => '腾讯云IM';
+	@override String get k_167916k => '微信好友';
+	@override String get k_03euwr1 => '朋友圈';
+	@override String get k_0cxccci => 'ဗီဒီယိုခေါ်မှု ကို ဖိတ်ခေါ်ပါ';
+	@override String get k_06lhh4b => 'အသံဖြင့် ခေါ်ဆိုရန် သင့်အား ဖိတ်ခေါ်ပါ';
+	@override String get k_1ywo9ut => '即时通信 IM (Instant Messaging)基于 QQ 底层 IM 能力开发，仅需植入 SDK 即可轻松集成聊天、会话、群组、资料管理和直播弹幕能力，也支持通过信令消息与白板等其他产品打通，全面覆盖您的业务场景，支持各大平台小程序接入使用，全面满足通信需要';
+	@override String get k_0ios26v => 'WeChat installation ကို မတွေ့ပါ';
+	@override String get k_1jg6d5x => ' သီးသန့်တည်ရှိမှု မူဝါဒ အကျဉ်းချုပ်';
+	@override String get k_0selni4 => 'သီးသန့် တည်ရှိမှု မူဝါဒ';
+	@override String get k_10s6v2i => 'သတင်းအချက်အလက် စုဆောင်းခြင်း စာရင်း';
+	@override String get k_0pasxq8 => 'သတင်းအချက်အလက် မျှဝေ ခြင်း စာရင်း';
+	@override String get k_003r6vf => 'ဝင်ပါ';
+	@override String get k_03f2zbs => 'Share';
+	@override String get k_0cfkcaz => 'Message Push ကို';
+	@override String get k_1rmkb2w => 'ချက်တင်စာ အသစ်တွန်းပါ';
+	@override String get k_1lg375c => 'သတင်းအသစ် သတိပေးချက်';
+	@override String k_1t0akzp({required Object option1}) => '注销后，您将无法使用当前账号，相关数据也将删除且无法找回。当前账号ID: $option1';
+	@override String get k_1699p6d => '腾讯大厦';
+	@override String get k_1ngd60h => '深圳市深南大道10000号';
+	@override String get k_1na29vg => '位置消息维护中';
+	@override String get k_1xmms9t => 'အုပ်စု လျှောက်လွှာ စာရင်း';
+	@override String get k_0dla4vp => '反馈及建议可以加入QQ群';
+	@override String get k_1odrjd1 => '在线时间: 周一到周五，早上10点 - 晚上8点';
+	@override String get k_1bh903m => 'QQ群号复制成功';
+	@override String get k_16264lp => 'အုပ်စုနံပါတ် ကိုကူးယူပါ';
+	@override String get k_18ger86 => '腾讯云 · IM';
+	@override String get k_1vd70l1 => '服务亿级 QQ 用户的即时通讯技术';
+	@override String get k_036phup => 'Tencent တိမ်တိုက် IM';
+	@override String get k_0gfsln9 => 'သတင်းအချက်အလက် ပြောင်းလဲ သွားပြီ';
+	@override String get k_0ow4akh => '请根据Demo的READ ME指引，配置百度AK，体验DEMO的位置消息能力';
+	@override String get k_1kzh3lo => '请根据本文档指引 https://docs.qq.com/doc/DSVliWE9acURta2dL ， 快速体验位置消息能力';
+	@override String get k_161zzkm => 'ကျေးဇူးပြု၍ အသုံးပြုသူ အမည် ထည့်ပါ';
+	@override String get k_1veosyv => '请在环境变量中写入key';
+	@override String get k_03exdnb => 'အသုံးပြုသူ အမည်';
+	@override String get k_16kquu8 => 'လက်ရှိ လမ်းညွှန်';
+	@override String get k_0fbvuqs => 'စတင် ကူးယူပါ';
+	@override String get k_16j153h => '腾讯云IM APP（\'本产品\'）是由腾讯云提供的一款测试产品，腾讯云享有本产品的著作权和所有权。本产品仅用于功能体验，不得用于任何商业用途。严禁在使用中有任何色情、辱骂、暴恐、涉政等违法内容传播。';
+	@override String get k_13ghyf8 => '【安全提示】本 APP 仅用于体验腾讯云即时通信 IM 产品功能，不可用于业务洽谈与拓展。请勿轻信汇款、中奖等涉及钱款的信息，勿轻易拨打陌生电话，谨防上当受骗。';
+	@override String get k_0gt6cro => '点此投诉';
+	@override String k_03595fk({required Object option1}) => ' 等$option1人';
+	@override String k_1gpzgni({required Object option2}) => '$option2人群';
+	@override String get k_02lfg57 => 'Group Chat အသစ်';
+	@override String get k_17ifd8i => 'Tencent Cloud IM ထုတ်ကုန် ဝန်ဆောင်မှုများကို တွေ့ကြုံ ခံစား ရန် ဤ APP မှ ကြိုဆို ပါသည်';
+	@override String get k_1f0ms23 => 'မက်ဆေ့ခ်ျ ကိုဖတ် ပါ status ကို';
+	@override String get k_1c0x9ha => '关闭后，您收发的消息均不带消息阅读状态，您将无法看到对方是否已读，同时对方也无法看到你是否已读。';
+	@override String get k_1dzhdr5 => 'အွန်လိုင်း အခြေအနေကိုပြပါ';
+	@override String get k_0mwsniq => 'ပိတ်ပြီးသောအခါ၊ session list နှင့် လိပ်စာ စာအုပ် ရှိ သူငယ်ချင်း များအတွက် အွန်လိုင်း သို့မဟုတ် အော့ဖ်လိုင်း status prompts များကိုသင် မမြင်နိုင်ပါ။';
+	@override String get k_0f7h6ay => 'ဆက်သွယ်မှု မအောင်မြင်ပါ';
+	@override String get k_0wreawq => 'Baidu မြေပုံ ပလပ် အင် သည် ဝက်ဘ် ဗားရှင်း ကို ယခုအချိန်တွင် မထ ောက် ပံ့ ပါ။ ကျေးဇူးပြု၍ မိုဘိုင်း အက် ပလီကေးရှင်း DEMO ကို အသုံးပြု၍ တည်နေရာ မက်ဆေ့ခ်ျ စွမ်းရည်ကို တွေ့ကြုံ ခံစား ပါ';
+	@override String get k_03c56co => 'မရွေး ချယ်ပါ';
+	@override String get k_1klqdh1 => 'တရုတ် အက္ခရာ များ၊ အင်္ဂလိပ် ၊ နံပါတ် များနှင့် underscores များသာ';
+	@override String get k_03el5lp => 'မရေးရသေး';
+	@override String get k_0554lam => 'သူငယ်ချင်း များ အဖွဲ့';
+	@override String get k_1hyz1ua => 'လူစိမ်း လူမှုရေး အုပ်စု';
+	@override String get k_1s8hjin => 'ကြားဖြတ် အစည်းအဝေး အဖွဲ့';
+	@override String get k_16ejs8f => 'Live အဖွဲ့';
+	@override String get k_1rqdzbh => 'အသိုင်းအဝိုင်း';
+	@override String get k_1aue1b6 => 'သာမန် WeChat အုပ်စုများ နှင့်ဆင်တူ သည် အုပ်စု အတွင်းရှိ သူငယ်ချင်း များကိုသာ ဖန်တီး ပြီးနောက် အုပ်စု ထဲသို့ထည့် ရန်ဖိတ်ကြား သည်။ ဖိတ်ကြား ထားသော ပါတီ၏ ခွင့်ပြုချက် သို့မဟုတ် ပိုင်ရှင် ၏ ခွင့်ပြုချက် မလိုအပ်ပါ';
+	@override String get k_0uldek7 => 'QQ အုပ်စု နှင့်ဆင်တူ သည် အုပ်စု ပိုင်ရှင် သည် ဖန်တီး ပြီးနောက် အုပ်စု စီမန်ခံခွဲသူကိုသတ်မှတ် နိုင်သည်။ အသုံးပြုသူသည် အုပ်စု ID ကိုရှာဖွေ ပြီး အုပ်စု လျှောက်လွှာ ကိုစတင် ပြီးနောက် အုပ်စု ပိုင်ရှင် သို့မဟုတ် စီမန်ခံခွဲသူ သည် အုပ်စု ထဲဝင် ရန် ခွင့်ပြုချက် လိုအပ်သည်။';
+	@override String get k_1nv4w25 => 'ဖန်တီး ပြီးနောက်, သင် အလိုတော် မှာ ဝင် နှင့် ထွက် နိုင်ပါတယ်, နှင့် Pre-entry ကို မက်ဆေ့ခ်ျ များ ကြည့်ရှု ထောက်ခံ; အသံ နှင့် ဗွီဒီယို ကွန်ဖရင့် မြင်ကွင်း များ၊ အွန်လိုင်း ပညာရေး မြင်ကွင်း များနှင့် အချိန်နှင့်တပြေးညီ အသံ နှင့် ဗွီဒီယို ထုတ်ကုန်များနှင့် ပေါင်းစပ်ထားသော အခြား မြင်ကွင်း များအတွက် သင့်လျော် သည်';
+	@override String get k_1wbmoof => 'ဖန်တီး ပြီးနောက် သင် အလိုအလျောက် ၀ င် ထွက် နိုင်သည်။ အဖွဲ့ ၀ င် အရေအတွက် အပေါ် အကန့်အသတ် မရှိသော်လည်း သမိုင်း မက်ဆေ့ခ်ျ သိုလှောင်မှု ကိုမ ထောက်ပံ့ ပါ။ Barrage chat မြင်ကွင်း များအတွက် တိုက်ရိုက် ထုတ်ကုန် များနှင့်ပေါင်းစပ် ရန် သင့်တော်သည်။';
+	@override String get k_11mlyaa => 'ဖန်တီး ပြီးနောက် သင်အလိုအလျောက် ၀င်ထွက်၍ ထွက်ခွာ နိုင်သည်။ လူ ဦး ရေ ၁သိန်းအထိ အထောက်အပံ့ ပေးသည်။ သမိုင်း မက်ဆေ့ခ်ျ သိုလှောင်မှု ကိုထောက်ပံ့ နိုင်သည်။ အသုံးပြုသူသည် အုပ်စု ID ကိုရှာဖွေ ပြီး အုပ်စု လျှောက်လွှာ ကိုစတင် ပြီးနောက် စီမံခန့်ခွဲ သူ၏ ခွင့်ပြုချက် မရပဲ အုပ်စုထဲဝင် နိုင်သည်။';
+	@override String get k_0ylgdrb => 'Community DEMO သည် ဖွံ့ဖြိုးဆဲ ဖြစ်ပြီး မကြာမီ စတင် တော့မည် ဖြစ်သည်';
+	@override String get k_0elsjm2 => 'Group Chat ဖန်တီး ပါ';
+	@override String get k_1iw4gdk => 'မည်သူမဆို ခွင့်ပြုပါ';
+	@override String get k_0i5ffqf => 'သတင်းအချက်အလက် အတည်ပြု ရန်လိုအပ်သည်';
+	@override String get k_111mgqj => ' ငါ့ကို သူငယ်ချင်း အဖြစ် မထည့် ပါ နှင့်';
+	@override String get k_03go2lu => 'သတ်မှတ် မထား';
+	@override String get k_15zb99m => 'ငါ့ကို မိတ်ဆွ တစ်ဦးအဖြစ် ထည့်သွင်း ဖို့ နည်းလမ်း';
+	@override String get k_1llp7tu => 'အသုံးပြုသူ မရှိပါ';
+	@override String get k_0tbyqyb => 'Loading in...';
+	@override String get k_0td1p3f => 'သိမ်းဆည်း ထားသည် …';
+	@override String get k_1ui0gai => 'သတ်မှတ် ချက်ကို ရှာဖွေပေးပါ။';
+	@override String get k_03agld7 => 'အုပ်စုလိုက် အရိပ်အမြွက်';
+	@override String get k_002wkr3 => 'ဘာသာပြန်';
+	@override String get k_13g4hxv => 'ဘာသာပြန် ပြီး';
+	@override String get k_003mmoz => 'ဒုံးပျံ';
+	@override String get k_003nogx => 'လေယာဉ်';
+	@override String get k_003pjj6 => 'သရဖူ';
+	@override String get k_000340k => 'ပန်း';
+	@override String k_0cv8ngo({required Object option1}) => 'ပေးသည်။$option1';
+	@override String get k_03a2zjl => 'လက်ဆောင်ပေးသည်';
+	@override String get k_0003yq8 => '朵';
+	@override String get k_13k5228 => 'Live အခန်း ကို ချီးမွမ်း ခဲ့သည်';
+	@override String get k_1k0rrvn => 'တစ်ခုခု ပြောပါ...';
+	@override String get k_13jzi5y => 'တိုက်ရိုက် ထုတ်လွှင့် ခန်း ကိုရိုက် ထည့်ပါ';
+	@override String get k_14asoqo => 'cancel follow ';
+	@override String get k_003ohwe => 'Follow';
+	@override String k_1h33pzv({required Object option1}) => 'ပရိသတ်တွေ $option1 |';
+	@override String k_07skbgr({required Object option2}) => ' Follow $option2';
+	@override String k_1c99nb3({required Object option1}) => '$option1 万+';
+	@override String get k_19mfrrb => 'အွန်လိုင်း ပရိသတ်';
+	@override String get k_13m65um => 'ပရိသတ် သတင်းအချက်အလက်';
+	@override String k_19kj6te({required Object option1}) => '$option1 本场点赞';
+	@override String k_1qqgjra({required Object option3}) => '$option3မဖတ် ရသေးသောစာ';
+	@override String get k_0uubyjr => 'ဤတွင် မဖတ်ရသေးသော မက်ဆေ့ခ်ျ များဖြစ်သည်';
+	@override String get k_0kg1wsx => 'အုပ်စု အမျိုးအစား ကိုရွေးချယ် ပါ';
+	@override String get k_003m6xh => 'စက်တင်';
+	@override String get k_18nszwl => 'ကျွန်တော် တို့အကြောင်းရာများ';
+	@override String get k_003txiw => 'အကြောင်းအရာ';
+	@override String get k_12fp4oc => 'တရားဝင် ဝက်ဘ်ဆိုက်';
+	@override String get k_1391sy5 => 'ပလက်ဖောင်း အားလုံး သို့ တစ်ကြိမ် တည်း တည်ဆောက်ခြင်း၊ ထုပ်ပိုး ခြင်းနှင့် ဖြန့်ကျက် ခြင်း၊ ကျယ်ပြန့်သော မျက်နှာပြင် နှင့် ကျဉ်းမြောင်းသော မျက်နှာပြင်သည် အလိုက်သင့် ပြောင်းလဲ နိုင်သည်';
+	@override String get k_002vu95 => 'ကြိုဆို ပါတယ်';
+	@override String get k_0o6nt4d => 'ငါ ဖတ် ပြီး သဘောတူ ခဲ့သည်';
+	@override String get k_12l2415 => '腾讯云IM各项协议及规定';
+	@override String get k_0rcqou9 => 'Copyright © 2013-2023 Tencent Cloud. All Rights Reserved. 腾讯云 版权所有';
+	@override String get k_003lmhx => 'အုပ်စု';
+	@override String get k_1s251fa => 'ဆက်သွယ်ရန် &အုပ်စု';
+	@override String get k_0cjp3hx => 'အသေးစိတ် အတွက် ဆက်သွယ် ရန် (သို့) အုပ်စုကို ရွေး ပါ';
+	@override String get k_12veoax => 'Channel ကို switching';
+	@override String get k_002rfh9 => 'နိုင်ငံတကာ';
+	@override String get k_0864lq3 => 'အသုံးပြု နေစဉ်အတွင်း သင့် တွင် မေးခွန်း များ ရှိပါက အောက်ပါ လမ်းကြောင်း များမှတဆင့် ကျွန်ုပ်တို့ ကိုဆက်သွယ် ပါ';
+	@override String get k_12625cy => 'အဖွဲ့ ထဲချက်ချင်း ဝင်ပါ';
+	@override String get k_131lvxd => 'ကျွန်တော်အကောင့်';
+	@override String get k_002qep7 => 'Interface';
+	@override String get k_002vbyp => 'အသွင်အပြင်';
+	@override String get k_16owrwc => 'အလင်း အရောင် Mode ကို';
+	@override String get k_01zair9 => 'အမှောင် mode (ဖွံ့ဖြိုးဆဲ)';
+	@override String get k_002skx2 => 'အကြောင်းအရာ';
+	@override String get k_002wzvs => 'ဘာသာစကား';
+	@override String get k_002woft => 'အင်္ဂလိပ်';
+	@override String get k_129eldp => 'တရုတ် ရိုးရာဘာသာ';
+	@override String get k_129ekqk => 'ရိုးရှင်းသော တရုတ်ဘာသာ';
+	@override String get k_002whil => 'ဂျပန်ဘာသာ';
+	@override String get k_002wqld => 'ကိုရီးယားဘာသာ';
+	@override String get k_003is6v => 'အထွေထွေ';
+	@override String get k_12s2mfc => 'အသေးစိတ်ကြည့်ရန်';
+	@override String get k_12fsjye => ' ဆက်နွယ်သည့် ဝက်ဆိုဒ်';
+	@override String get k_16uejmj => 'ကိုယ်ပိုင်စင်တာ';
+	@override String get k_0dtyory => 'တုံ့ပြန်ချက်';
+	@override String get k_03oy6z4 => '所有 SDK';
+	@override String get k_03bh54n => '源代码';
+	@override String get k_0s3sgel => 'နာမည်ပျက် စာရင်းမှ ဖယ်ရှားပါ';
+	@override String get k_16as7eq => 'Emoji တုံ့ပြန်မှု';
+	@override String get k_003s12u => 'ပြန်ကြားချက်';
+	@override String get k_003s38r => 'ပိုများ';
+	@override String get k_003molk => 'Emotion';
+	@override String get k_165bbw6 => 'မက်ဆေ့ချ် သမိုင်း';
+	@override String get k_13sqc0z => 'မက်ဆေ့ခ်ျ ကို ရှင်းလင်းပါ';
+	@override String get k_0glns86 => 'Session ကို ဖျက်ပါ';
+	@override String get k_13s99rx => 'Clear Message';
+	@override String get k_11vsa3j => 'အုပ်စု မှထွက် ပါ';
+	@override String get k_11vvszp => 'အုပ်စု ဖျက်သိမ်း';
+	@override String get k_15i9w72 => 'အုပ်စု စီမန်ခံခွဲသူ';
+	@override String get k_0p3espj => 'မှတ်စုအမည်သတ်မှတ် ပါ';
+	@override String get k_118sw9v => 'ယခုရှာပါ';
+	@override String get k_1xn4cn2 => 'Operating ပတ်ဝန်းကျင် ထောက်လှမ်း';
+	@override String get k_0sy25ey => 'ဤ ပရိုဂရမ် ကိုအသုံးပြုရန် Microsoft Edge WebView2 runenvironment ကို အရင် install လုပ် ပါ';
+	@override String get k_0g4tlsb => 'ယခု Download လုပ် ပါ';
+	@override String get k_13ozr8k => 'လောလောဆယ် မထောက်ခံ';
+	@override String get k_16yiku8 => 'Local search ကို Web side တွင် ယာယီ မ ထောက်ပံ့ ပါ။ ကျေးဇူးပြု၍ Mobile App သို့မဟုတ် Desktop side experience ကိုသုံး ပါ';
+	@override String get k_003lz6t => 'တစ်ဖက်';
+	@override String k_1xf4yre({required Object option1}) => '$option1 သို့ပေးပို့ ပါ';
+	@override String get k_003por5 => 'Screenshot';
+	@override String get k_0c67rdb => 'ရွေးချယ် မှုများစွာ ခွင့်ပြုပါ';
+	@override String get k_11lav8q => 'အမည်မသိ မဲ ပေးခြင်း';
+	@override String get k_137cjfq => 'အများပြည်သူ ရလာဒ်များ';
+	@override String get k_0e3jces => 'ကျေးဇူးပြုပြီး ရွေးစရာ များထည့်ပါ';
+	@override String get k_0dcbhiz => 'ရွေးစရာအသစ်';
+	@override String get k_003r4qf => 'တင်ပြီး';
+	@override String get k_1xa5q8q => 'ကျေးဇူးပြုပြီး မဲခေါင်းစဉ်ထည့်ပါ';
+	@override String get k_003nv7m => '已投';
+	@override String get k_002ym5d => '票，';
+	@override String get k_003pfxt => 'ရာခိုင်နှုန်း';
+	@override String get k_0fxdch1 => '未初始化投票插件，请先初始化';
+	@override String get k_1lzoopr => '非投票消息，请检查';
+	@override String get k_03ahybu => 'မဲပေးပီး';
+	@override String get k_11lamu8 => 'ချက်ချင်းမဲပေး';
+	@override String get k_0b9h7nq => 'မဲပေး မှုပြီးဆုံးပြီ';
+	@override String get k_0c7zem1 => 'ထပ်ပို့';
+	@override String get k_11l1qvo => 'မဲအဆုံးရပ်';
+	@override String get k_0z314c0 => '[ရွေးချယ် မှုများစွာ]';
+	@override String get k_0z2zcm7 => '[Single choice]';
+	@override String get k_0y8ap8v => '[လူထုများ]';
+	@override String get k_0y4cs5n => '[ပုဂ္ဂလိက]';
+	@override String get k_0y6agtt => '[အမည်မသိ]';
+	@override String get k_0y68wmo => '[အမည်အစစ်]';
+	@override String k_1pssgjf({required Object option1}) => 'ပါဝင် သူ အရေအတွက်$option1';
+	@override String k_0x9zkqf({required Object option2}) => 'အမှန်တကယ် ပါဝင် သူ အရေအတွက်: $option2';
+	@override String get k_09ikyqj => 'ရွေးချယ်စရာ အားလုံးကို ကြည့်ပါ';
+	@override String k_0h2jp2z({required Object option1}) => '$option1票';
+	@override String get k_0y2zr3y => '[မဲ]';
+	@override String get k_11lci1l => 'Create Voting';
+	@override String get k_003l988 => 'မဲ';
+	@override String get k_1rw7s82 => ' ပုံမှန် အသုံးပြု ရန်အတွက် အယ်လ်ဘမ် ရှိ ဗီဒီယို ခွင့်ပြု ချက်များ ကိုရယူပါ';
+	@override String get k_003rcwm => 'ဖွင့်';
+	@override String get k_1698c42 => 'ခရီးစဉ်အတွင်း ဖွင့်လှစ်';
+	@override String get k_066fxsz => 'fileကြည့်ရန်';
+	@override String get k_0k432y2 => 'ပို့ လို့မရဘူး၊ ဖိုင်တွဲ အပါဝင်';
+	@override String get k_002wb4y => 'Conversation';
+	@override String get k_0od4qyh => 'ရုပ်သံ ဖိုင် ချွင်းယွင်းချက်';
+	@override String get k_1cdzld5 => 'ကျေးဇူးပြုပြီး ထုတ်ကုန် အချက်အလက်ဖြည့်ပါ';
+	@override String get k_19qt9y2 => 'ဝန်ဆောင်မှု အကဲဖြတ်';
+	@override String get k_13s7ltw => 'Card Message';
+	@override String get k_13ajr25 => 'အွန်လိုင် ပေါ်တွင် ဝန်ဆောင်မှုပေးဆောင်သူ';
+	@override String get k_0ti5mfz => 'အွန်လိုင် ပေါ်တွင် ဝန်ဆောင်မှုပေးဆောင်သူ မရှိပါ။';
+	@override String get k_1bfkxg9 => '0KB ဖိုင် လွှဲပြောင်းခြင်း ကိုမ ပံ့ပိုးပါ';
+	@override String get k_0vvsw7g => 'ဖိုင် ချွင်းယွင်းချက်';
+	@override String get k_06e224q => '[အဆိုပါ မက်ဆေ့ခ်ျ ကို စီမန်ခံခွဲသူ မှ ပြန်လည်ရုပ်သိမ်း ခဲ့သည်]';
+	@override String get k_1u1mjcl => '[မက်ဆေ့ခ်ျ ကို ပြန်လည်ရုပ်သိမ်း ခဲ့သည်]';
+	@override String get k_1qcqxea => 'မျိုးစုံ session များကိုရွေးချယ်ပါ';
+	@override String get k_1qgmc20 => 'Session တစ်ခု ရွေးပါ';
+	@override String get k_1d8nx6f => 'ဝင်းဒိုး အသစ်တွင် ဖွင့်ပါ';
+	@override String get k_1hz05ax => 'မူရင်း အရင်း အမြစ်ကို ဒေါင်းလုပ် ဆွဲနေစဉ် ခဏစောင့်ပါ။...';
+	@override String get k_002robo => 'Clear';
+	@override String get k_003lyik => 'Live';
+	@override String get k_0cdljc3 => 'Join';
+	@override String get k_0p7ezww => 'Welcome to the live room! Strictly prohibit minors from live broadcasting, rewarding, or selling alcoholic products to minors. If the host sells alcoholic products, please minors watch under the accompaniment of a guardian. Inside the live room, strictly forbid illegal and irregular, vulgar and pornographic, smoking and excessive drinking, and personal injury content. If the host induces rewards or private transactions in an improper way during the live broadcast, please make a cautious judgment to prevent personal property loss. To purchase products, please click the shopping cart button below, do not engage in private transactions, and pay attention to property safety to beware of online fraud.';
+	@override String get k_0zw0eau => 'Flutter';
+	@override String get k_132m79q => 'Call End';
+	@override String get k_167dvo3 => 'Choose Contact';
+	@override String get k_1fszgep => 'Chat with us on';
+	@override String get k_1l1p7uv => 'Hourly Ranking 162nd';
+	@override String get k_1u1jwb8 => 'Telegram';
+	@override String get k_1vwbpp2 => 'The anchor has not yet started broadcasting.';
+	@override String get k_1xtvvs9 => 'Professional Official Technical Support';
 }
 
 // Path: <root>
@@ -6319,6 +7081,750 @@ extension on _StringsKo {
 			'k_0zw0eau': 'Flutter',
 			'k_132m79q': '통화가 끝나다',
 			'k_002robo': '제거',
+		};
+	}
+}
+
+extension on _StringsMy {
+	Map<String, dynamic> _buildFlatMap() {
+		return <String, dynamic>{
+			'k_1yemzyd': 'မက်ဆေ့ခ်ျ ကိုလက်ခံရရှိ ခဲ့သည်',
+			'k_0ylosxn': 'custom message',
+			'k_13sajrj': 'emoji message',
+			'k_13sjeb7': 'ဖိုင် မက်ဆေ့ခ်ျ',
+			'k_0yd2ft8': 'Group မှ prompt မက်ဆေ့ခ်ျ ကို',
+			'k_13s7mxn': 'Photo မက်ဆေ့ခ်ျ',
+			'k_13satlt': 'တည်နေရာ မက်ဆေ့ခ်ျ',
+			'k_00bbtsx': 'Forwarding မက်ဆေ့ခ်ျ ကို ပေါင်းစည်း',
+			'k_13sqwu4': 'အသံ မက်ဆေ့ခ်ျ',
+			'k_13sqjjp': 'ဗီဒီယို မက်ဆေ့ခ်ျ များ',
+			'k_1fdhj9g': 'ဒီ ဗားရှင်း ကဒီ မက်ဆေ့ခ်ျ ကို အထောက်အပံ့ မပေး ပါဘူး',
+			'k_06pujtm': 'သူငယ်ချင်း များ ထည့် ရန် မည်သည့် အသုံးပြု သူနှင့် မဆို သဘောတူပါ',
+			'k_0gyhkp5': 'အတည်ပြု ရန်လိုအပ်သည်',
+			'k_121ruco': 'သူငယ်ချင်း များထည့်ရန် မည်သူမဆိုကို ငြင်းပယ်ပါ',
+			'k_05nspni': 'Custom Field',
+			'k_03fchyy': 'Group Profile',
+			'k_03i9mfe': 'Group မှ ကိုယ်ရေး အကျဉ်း',
+			'k_03agq58': 'အုပ်စု အမည်',
+			'k_039xqny': 'Group မှ အကြောင်းကြားစာ',
+			'k_003tr0a': 'အုပ်စု ပိုင်ရှင်',
+			'k_03c49qt': 'Authorization သွား',
+			'k_002wddw': 'တားမြစ်ချက်',
+			'k_0got6f7': 'ပိတ်ပင် မှုကို ရုပ်သိမ်းပါ',
+			'k_1uaqed6': '[စိတ်ကြိုက်]',
+			'k_0z2z7rx': '[အသံ]',
+			'k_0y39ngu': '[Emotion]',
+			'k_0y1a2my': '[ပုံ]',
+			'k_0z4fib8': '[ဗီဒီယို]',
+			'k_0y24mcg': '[တည်နေရာ]',
+			'k_0pewpd1': '[စကားဝိုင်း မှတ်တမ်း]',
+			'k_13s8d9p': 'အမည်မသိ မက်ဆေ့ခ်ျ',
+			'k_1c3us5n': '@ all members ကို လက်ရှိ အုပ်စု ကမ ထောက်ပံ့ပါ',
+			'k_11k579v': 'မိန့်ခွန်း ထဲမှာ တရားမဝင် ကြေညာချက်ရှိပါတယ်',
+			'k_003qkx2': 'ပြက္ခဒိန်',
+			'k_003n2pz': 'ကင်မရာ',
+			'k_03idjo0': 'ဆက်သွယ်ရန်မိတ်ဆွေ',
+			'k_003ltgm': 'တည်နေရာ',
+			'k_02k3k86': 'မိုက်ခရို ဖုန်း',
+			'k_003pm7l': 'Photo Album',
+			'k_15ao57x': 'အယ်လ်ဘမ် ရေးသား ခြင်း',
+			'k_164m3jd': 'ဒေသခံ သိုလှောင်မှု',
+			'k_03r6qyx': 'သတင်းအချက်အလက် ရယူရန်အတွက် သင်၏ ခွင့်ပြုချက် လိုအပ်သည်',
+			'k_02noktt': 'ခွင့်ပြုချက်မရှိ',
+			'k_00043x4': 'Good',
+			'k_003qzac': 'မနေ့က',
+			'k_003r39d': 'တစ်မြန်နေ့က',
+			'k_03fqp9o': 'တနင်္ဂနွေနေ့',
+			'k_03ibg5h': 'တနင်္လာနေ့',
+			'k_03i7hu1': 'အင်္ဂါနေ့',
+			'k_03iaiks': 'ဗုဒ္ဓဟူးနေ့',
+			'k_03el9pa': 'ကြာသပတေးနေ့',
+			'k_03i7ok1': 'သောကြာနေ့',
+			'k_03efxyg': 'စနေနေ့',
+			'k_003q7ba': 'ညနေပိုင်း',
+			'k_003q7bb': 'မနက်ပိုင်း',
+			'k_003pu3h': 'ယခု',
+			'k_0n9pyxz': 'အသုံးပြုသူ မ တည်ရှိပါ',
+			'k_1bjwemh': 'အသုံးပြုသူ ID ကိုရှာပါ',
+			'k_003kv3v': 'ရှာဖွေ',
+			'k_16758qw': 'သူငယ်ချင်း များထည့်ပါ',
+			'k_0i553x0': 'အတည်ပြု သတင်းအချက်အလက်ဖြည့်ပါ',
+			'k_031ocwx': 'ကျေးဇူးပြု၍ မှတ်ချက်များ နှင့် အုပ်စုများကို ဖြည့်ပါ',
+			'k_003ojje': 'မှတ်ချက်',
+			'k_003lsav': 'အုပ်စုခွဲ',
+			'k_167bdvq': 'ကျွန်တော့်သူငယ်ချင်း',
+			'k_156b4ut': 'သူငယ်ချင်း လျှောက်လွှာ ကို ပို့လိုက်သည်',
+			'k_002r305': 'ပို့',
+			'k_03gu05e': 'စကားပြောခန်း',
+			'k_03b4f3p': 'ညီလာခံအုပ်စု',
+			'k_03avj1p': 'ပွင့်လင်းသောအဖွဲ့',
+			'k_03asq2g': 'အလုပ် အဖွဲ့',
+			'k_03b3hbi': 'အမည်မသိ အုပ်စု',
+			'k_1loix7s': ({required Object groupType}) => 'အုပ်စု အမျိုးအစား: $groupType',
+			'k_1lqbsib': 'Group Chat မတည်ရှိပါ',
+			'k_03h153m': 'အုပ်စု ID ကိုရှာပါ',
+			'k_0oxak3r': 'အဖွဲ့ လိုက် လျှောက်လွှာ ပို့ပြီးပြီ',
+			'k_002rflt': 'ဖျက်',
+			'k_1don84v': 'မူရင်း မက်ဆေ့ခ်ျ ကိုရှာ မရပါ',
+			'k_003q5fi': 'ကူးယူ ပါ',
+			'k_003prq0': 'Forward',
+			'k_002r1h2': 'ရွေးချယ် မှုများစွာ',
+			'k_003j708': 'ကိုးကား',
+			'k_003pqpr': 'ဆုတ်ခွါ',
+			'k_03ezhho': 'ကူးယူထား',
+			'k_11ctfsz': 'အကောင်အထည် မဖော် နိုင်သေး',
+			'k_1hbjg5g': 'Group မှ စနစ် မက်ဆေ့ခ်ျကို',
+			'k_03tvswb': '[အမည်မသိ မက်ဆေ့ခ်ျ]',
+			'k_155cj23': 'သင်မက်ဆေ့ခ်ျ ကို ရုပ်သိမ်း လိုက်သည်',
+			'k_0gapun3': 'ပြန်လည် တည်းဖြတ်',
+			'k_1aszp2k': 'သင် ဤ မက်ဆေ့ခ်ျ ကို ပြန်လည်ပေးပို့လို ပါသလား?',
+			'k_003rzap': 'အတည်ပြုသည်။',
+			'k_003nevv': 'ပယ်ဖျက်',
+			'k_0003z7x': 'ခင်ဗျာ',
+			'k_002wfe4': 'ဖတ်ပြီးပြီ',
+			'k_002wjlg': 'မ ဖတ်ရသေး',
+			'k_0h1ygf8': 'ခေါ်ဆို မှုတစ်ခုစတင်ပါ',
+			'k_0h169j0': 'ခေါ်ဆိုမှု ပယ်ဖျက်ပါ',
+			'k_0h13jjk': 'ခေါ်ဆိုမှု ကိုလက်ခံ ပါ',
+			'k_0h19hfx': 'ခေါ်ဆို မှုကို ငြင်းပယ်ပါ',
+			'k_0obi9lh': 'အချိန်ကုန်',
+			'k_001nmhu': 'အခြား အက်ပ် တွေနဲ့ ဖွင့်ပါ',
+			'k_1ht1b80': 'ယခုလက်ခံနေစဉ်',
+			'k_105682d': 'ရုပ်ပုံတင်မှု မအောင်မြင်ပါ',
+			'k_0pytyeu': 'ပုံသိမ်းဆည်း မှု အောင်မြင်',
+			'k_0akceel': 'ပုံသိမ်းဆည်း မှု မအောင်မြင်ပါ',
+			'k_003rk1s': 'သိမ်းဆည်းပါ',
+			'k_04a0awq': '[အသံ မက်ဆေ့ခ်ျ]',
+			'k_105c3y3': 'ဗီဒီယို တင်မှု မအောင်မြင်ပါ',
+			'k_176rzr7': 'စကားဝိုင်း မှတ်တမ်း',
+			'k_0d5z4m5': 'သတိ ပေးရန်ရွေးချယ်ပါ',
+			'k_003ngex': 'ပြီးပြီ',
+			'k_1665ltg': 'ခေါ်ဆို မှုတစ်ခု စတင်ပါ',
+			'k_003n8b0': 'ရိုက်ကူး',
+			'k_003kthh': 'ဓာတ်ပုံ',
+			'k_003tnp0': 'ဖိုင်',
+			'k_0jhdhtp': 'ပေးပို့ မှု မအောင်မြင် ပါ၊ ဗီဒီယို သည် 100MB ထက်မပို နိုင်ပါ',
+			'k_119ucng': 'ရုပ်ပုံက အလွတ် မဖြစ်ရဘူး',
+			'k_13dsw4l': 'လွှတ်ပြီးပယ်ဖျက်ပါ',
+			'k_0am7r68': 'သင်၏လက်ချောင်း ကို လျှောပြီး ပေးပို့ခြင်းကိုပယ်ဖျက်ပါ',
+			'k_15jl6qw': 'စကားပြော ရန် အချိန်တို လွန်းသည်!',
+			'k_0gx7vl6': 'စကားပြော ရန်ဖိထားပါ',
+			'k_15dlafd': 'တစ်ဦးချင်းစီ ပေးပို့ပါ',
+			'k_15dryxy': 'ပေါင်းစည်း forwarding',
+			'k_1eyhieh': 'ရွေးချယ်ထားသော မက်ဆေ့ခ်ျ ကို ဖျက်ရန် သေချာသည်',
+			'k_17fmlyf': 'စကားဝိုင်း ကို ရှင်းပါ',
+			'k_0dhesoz': 'ထိပ်တန်း ကို ပယ်ဖျက်ပါ',
+			'k_002sk7x': 'ထိပ်တန်း ထားရန်',
+			'k_003ll77': 'မူကြမ်း',
+			'k_03icaxo': 'စိတ်ကြိုက်',
+			'k_1uaov41': 'Chat content ကိုရှာပါ',
+			'k_003kfai': 'မသိ',
+			'k_13dq4an': 'အလိုအလျောက် ခွင့်ပြုချက်',
+			'k_0l13cde': 'အုပ်ချုပ်ရေးမှူး ခွင့်ပြုချက်',
+			'k_11y8c6a': 'ထပ်ပေါင်းထည့်ခြင်း မရှိပါ',
+			'k_1kvyskd': 'ကွန်ယက် ဆက်သွယ်မှု မရှိပါ၊ ပြုပြင်မွမ်းမံ မရပါ',
+			'k_16payqf': 'အပေါင်း အုပ်စု နည်းလမ်း',
+			'k_0vzvn8r': 'အုပ်စုအမည် ကိုပြုပြင်ပါ',
+			'k_038lh6u': 'Group မှ စီမံခန့်ခွဲ မှု',
+			'k_0k5wyiy': 'စီမံခန့်ခွဲသူ ခန့်ရန်',
+			'k_0goiuwk': 'အားလုံး ပိတ်ပင်ထား',
+			'k_1g889xx': 'တားမြစ်ချက် အပြည့်အစုံ ကိုဖွင့် ပြီးနောက် အုပ်စုပိုင်ရှင် နှင့် အုပ်ချုပ်ရေးမှူး သာ စကားပြောခွင့်ပြုသည်။',
+			'k_0wlrefq': 'တားမြစ်ချက်လိုအပ်သော အဖွဲ့၀င်များ ကိုထည့်ပါ',
+			'k_0goox5g': 'တားမြစ်ချက်ကို သတ်မှတ်ပါ',
+			'k_08daijh': 'စီမံခန့်ခွဲသူ အဆင့်အတန်း ကိုအောင်မြင်စွာဖျက်သိမ်းခြင်း',
+			'k_0k5u935': 'စီမံခန့်ခွဲသူ ထည့်ပါ',
+			'k_03enyx5': 'အဖွဲ့၀င်များ',
+			'k_0h1svv1': 'အဖွဲ့ ၀င်များကို ဖျက်ပါ',
+			'k_0h1g636': 'အဖွဲ့၀င်များ ကိုထည့်ပါ',
+			'k_0uj7208': 'ကွန်ယက်ဆက်သွယ် မှုမရှိပါ၊ အဖွဲ့၀င် များကိုကြည့်မရပါ',
+			'k_0hpukyx': 'နောက်ထပ်အဖွဲ့၀င် များကိုကြည့်ပါ',
+			'k_0qtsar0': 'မက်ဆေ့ခ်ျ နောက်ရှက် ရပ်ရန်',
+			'k_0ef2a12': 'ကျွန်ုပ်၏အုပ်စု အမည်ပြောင် ကိုပြုပြင်ပါ',
+			'k_1aajych': 'တရုတ်၊ အက္ခရာ များ၊ နံပါတ် များနှင့် မျဉ်းသား များ၊ စကားလုံး ၂-၂၀ သာ',
+			'k_137pab5': 'ငါ့ အုပ်စု အမည်ပြောင်',
+			'k_0ivim6d': 'အဖွဲ့ လိုက် ကြေငြာချက် မရှိပါ',
+			'k_03eq6cn': 'Group မှ ကြေငြာချက်',
+			'k_002vxya': 'အယ်ဒီတာ',
+			'k_17fpl3y': 'ထိပ်တန်း ချက်တင်',
+			'k_03es1ox': 'အုပ်စု အမျိုးအစား',
+			'k_003mz1i': 'သဘောတူ',
+			'k_003lpre': 'ငြင်းပယ်',
+			'k_003qk66': 'Profile',
+			'k_003lhvk': 'အမည်ပြောင်',
+			'k_003ps50': 'အကောင့်',
+			'k_15lx52z': 'ကိုယ်ပိုင် လက်မှတ်',
+			'k_003qgkp': 'ကျား/မ',
+			'k_003m6hr': 'မွှေးနေ့',
+			'k_0003v6a': 'ကျား',
+			'k_00043x2': 'မ',
+			'k_03bcjkv': 'မသတ်မှတ် ထားပါ',
+			'k_11s0gdz': 'အမည်ပြောင် ကိုပြုပြင်ပါ',
+			'k_0p3j4sd': 'တရုတ် စာလုံး များ၊ အက္ခရာ များ၊ နံပါတ် များနှင့် underscores များသာ',
+			'k_15lyvdt': 'လက်မှတ် ကိုပြုပြင်ပါ',
+			'k_0vylzjp': 'ဒီ လူက ပျင်းရိပြီး ဘာမှမရေးဘူး',
+			'k_1hs7ese': 'အွန်လိုင်းရတဲ့အခါ ဒီ ကိုပြောင်းပါ',
+			'k_03exjk7': 'မှတ်ချက်အမည်',
+			'k_0s3skfd': 'နာမည်ပျက် စာရင်းသွင်းပါ',
+			'k_0p3b31s': 'မှတ်စု အမည် ကိုပြုပြင်ပါ',
+			'k_0003y9x': 'မရှိဘူး',
+			'k_11zgnfs': 'ကိုယ်ရေး အချက်အလက်',
+			'k_1tez2xl': 'ကိုယ်ပိုင် လက်မှတ် မရှိပါ',
+			'k_118prbn': 'ကမ္ဘာ ချီ ရှာဖွေမှု',
+			'k_1m9dftc': 'အဆက်အသွယ် အားလုံး',
+			'k_0em4gyz': 'အားလုံး အုပ်စုလိုက် chat',
+			'k_002twmj': 'Group Chat',
+			'k_09kga0d': 'နောက်ထပ် chat သမိုင်း',
+			'k_09khmso': 'ဆက်စပ် ချက်တင် မှတ်တမ်း',
+			'k_0vjj2kp': 'အုပ်စုလိုက် စကားပြော ခြင်း မှတ်တမ်း',
+			'k_003n2rp': 'ရွေးချယ် ပါ',
+			'k_03ignw6': 'အားလုံး',
+			'k_03erpei': 'စီမန်ခံခွဲသူ',
+			'k_0qi9tno': 'အုပ်စု ပိုင်ရှင်，စီမန်ခံခွဲသူ',
+			'k_1m9exwh': 'လတ်တလော ဆက်သွယ်သူများ',
+			'k_119nwqr': 'Input ကို အချည်းနှီး မဖြစ် နိုင်ပါ ',
+			'k_0pzwbmg': 'ဗီဒီယို သိမ်းဆည်း မှု အောင်မြင်',
+			'k_0aktupv': 'ဗွီဒီယို သိမ်းဆည်း မှု မအောင်မြင်ပါ',
+			'k_1qbg9xc': ({required Object option8}) => '$option8 to ',
+			'k_1wq5ubm': ({required Object option7}) => '$option7 changed ',
+			'k_0y5pu80': ({required Object option6}) => 'Group Chat မှထွက် ပါ $option6',
+			'k_0nl7cmd': ({required Object option5}) => 'အုပ်စု ထဲဝင် ရန် $option5 ကို ဖိတ်ခေါ် ပါ',
+			'k_1ju5iqw': ({required Object option4}) => 'အုပ်စု ထဲက $option4 Kick',
+			'k_1ovt677': ({required Object option3}) => 'User $option3 သည် group chat တွင် ပါဝင်သည်',
+			'k_0k05b8b': ({required Object option2}) => '$option2 was ',
+			'k_0wm4xeb': ({required Object option2}) => 'System message $option2',
+			'k_0nbq9v3': ({required Object option2}) => 'စကားပြော ချိန်: $option2',
+			'k_0i1kf53': ({required Object option2}) => '[ဖိုင်] $option2',
+			'k_1gnnby6': ({required Object option2}) => 'သင့်ရဲ့ $option2 သွားရောက် ကြည့်ရှု ချင်တယ်$option2',
+			'k_1wh4atg': ({required Object option2}) => '$option2  မိနစ် ပိုင်း အကြာ',
+			'k_07sh7g1': ({required Object option2}) => 'မနေ့က $option2',
+			'k_1pj8xzh': ({required Object option2}) => ' ကျွန်ုပ်၏ အသုံးပြုသူ ID: $option2',
+			'k_0py1evo': ({required Object option2}) => 'ကိုယ်ပိုင် လက်မှတ်: $option2',
+			'k_1kvj4i2': ({required Object option2}) => '$option2 မက်ဆေ့ခ်ျ ကို ရုပ်သိမ်းလိုက်သည်',
+			'k_1v0lbpp': ({required Object option2}) => '“$option2”ယခုအချိန်တွင် ထိုကဲ့သို့သော ဖိုင်များကို ဖွင့ ်၍ မရ ပါ၊ အခြား အပလီကေးရှင်း များကို ဖွင့်၍ ကြည့်ရှုနိုင်သည်',
+			'k_0torwfz': ({required Object option2}) => 'ရွေးချယ်မှု အောင်မြင်$option2',
+			'k_0i1bjah': ({required Object option1}) => '$option1 recalled a message',
+			'k_1qzxh9q': ({required Object option3}) => 'စကားပြော ချိန်: $option3',
+			'k_0wrgmom': ({required Object option1}) => '[အသံ ခေါ်ဆိုမှု]：$option1',
+			'k_06ix2f0': ({required Object option2}) => '[ဗီဒီယိုခေါ်မှု]：$option2',
+			'k_08o3z5w': ({required Object option1}) => '[ဖိုင်] $option1',
+			'k_0ezbepg': ({required Object option2}) => '$option2[တစ်စုံတစ်ဦး@ ကျွန်ုပ်]',
+			'k_1ccnht1': ({required Object option2}) => '$option2[@ အားလုံး]',
+			'k_1k3arsw': ({required Object option2}) => 'စီမန်ခံခွဲသူ ($option2/10)',
+			'k_1d4golg': ({required Object option1}) => 'အဖွဲ့၀င်များ($option1人)',
+			'k_1bg69nt': ({required Object option1}) => '$option1 members',
+			'k_00gjqxj': ({required Object option1}) => 'ကိုယ်ပိုင် လက်မှတ်: $option1',
+			'k_0c29cxr': ({required Object option1}) => '$option1ဆက်စပ် ချက်တင်မှတ်တမ်း',
+			'k_1twk5rz': ({required Object option1}) => '$option1 နှင့်အတူ chat သမိုင်း',
+			'k_1vn4xq1': ({required Object adminMember}) => '$adminMember Administrator ကို ပယ်ဖျက်ပါ',
+			'k_0e35hsw': 'သင်ရိုက်ကူး ထားသော ဓါတ်ပုံများသို့မဟုတ် ဗွီဒီယို များကို သူငယ်ချင်းများ သို့ပေးပို့ရန်နှင့် ဗီဒီယိုခေါ်မှု ပြုလုပ်ရန် ပိုမိုလွယ်ကူစေရန် ဓာတ်ပုံ များနှင့် ဗွီဒီယိုများ ရိုက်ကူးရန် ကင်မရာကိုသွားခွင့်ပြုပါ။',
+			'k_0dj6yr7': 'အသံမက်ဆေ့ခ်ျများ၊ဗွီဒီယိုများနှင့် အသံဗီဒီယိုခေါ်မှုများ ပေးပို့ရန် ပိုမိုလွယ်ကူစေရန် မိုက်ခရိုဖုန်း ဖြင့် မှတ်တမ်းတင်ပါ။',
+			'k_003qnsl': 'Storage',
+			'k_0s3rtpw': '为方便您查看和选择相册里的图片视频发送给朋友，以及保存内容到设备，请允许我们访问您设备上的照片、媒体内容。',
+			'k_0tezv85': ({required Object option2}) => ' လျှောက်လွှာ ရယူပါ$option2',
+			'k_002rety': ' permission. ',
+			'k_18o68ro': 'ပေးရန်လိုသည်။',
+			'k_1onpf8u': ' ဓာတ်ပုံများ၊ဗွီဒီယိုများ၊ဗီဒီယိုခေါ်မှုများနှင့် အခြားလုပ်ဆောင်ချက်များကိုပုံမှန် အသုံးပြုရန်အတွက် ကင်မရာခွင့်ပြုချက် ။',
+			'k_17irga5': ' အသံမက်ဆေ့ခ်ျများပို့ခြင်း၊ဗွီဒီယိုရိုက်ခြင်း၊ အသံ ဗီဒီယိုခေါ်မှု နှင့်အခြား လုပ်ဆောင်ချက်များကိုပုံမှန်အသုံးပြုရန်မိုက်ခရိုဖုန်းခွင့်ပြုချက် ။',
+			'k_0572kc4': ' ပုံမှန် အသုံးပြုရန်အတွက် ဓာတ်ပုံများ၊ ဗွီဒီယိုများပေးပို့ခြင်းနှင့်အခြားလုပ်ဆောင်ချက်များအတွက် ဓာတ်ပုံခွင့်ပြုချက်များ ကိုရယူပါ',
+			'k_0slykws': ' ဓာတ်ပုံများ၊ဗွီဒီယိုများနှင့်အခြားလုပ်ဆောင်မှုများကို သိမ်းဆည်း ရန်ပုံမှန် အသုံးပြုရန်အတွက် အယ်လ်ဘမ်ရေးရန် ခွင့်ပြုချက် ကိုရယူပါ',
+			'k_119pkcd': ' ပုံမှန်အားဖြင့် chat function တွင် ရုပ်ပုံ များ ကိုကြည့်ရှု ရန်၊ ရွေးချယ် ရန်နှင့် ပို့ ရန်အတွက် ဖိုင် ဖတ်ခြင်းနှင့် ရေးသားခြင်း ခွင့်ပြုချက်များ။',
+			'k_0gqewd3': 'နောက်မှ ပြောပါ',
+			'k_03eq4s1': 'သွား ဖွင့်ပါ',
+			'k_0nt2uyg': 'နောက်ဆုံး အနေအထား သို့ပြန် သွားပါ ',
+			'k_04l16at': ({required Object option1}) => '$option1 သတင်းစကား အသစ်',
+			'k_13p3w93': 'တစ်စုံတစ်ဦး@ ကျွန်ုပ်',
+			'k_18w5uk6': '@ အားလုံး',
+			'k_0jmujgh': 'အခြား ဖိုင် များ လက်ခံရရှိ နေသည်',
+			'k_12s5ept': ' မက်ဆေ့ချ် အသေးစိတ်',
+			'k_0mxa4f4': ({required Object option1}) => '$option1 ယောက်ဖတ်ပြီးပြီ',
+			'k_061tue3': ({required Object option2}) => '$option2ယောက် မဖတ်ပြီး',
+			'k_18qjstb': 'အုပ်စုပိုင်ရှင် လွှဲပြောင်း ',
+			'k_0on1aj2': ({required Object option2}) => '$option2 @ I မက်ဆေ့ချ် ရှိသည်',
+			'k_09j4izl': '[တစ်စုံတစ် ဦး @ ကျွန်ုပ်] ',
+			'k_1oqtjw0': '[@ အားလုံး] ',
+			'k_1x5a9vb': ({required Object option1}) => 'This is: $option1',
+			'k_14n31e7': 'အဖွဲ့ ဝင် တောင်းဆိုမှု',
+			'k_08nc5j1': ({required Object option1}) => 'အုပ်စု အမျိုးအစား: $option1',
+			'k_1josu12': ({required Object option1}) => '$option1 အုပ်စုဝင် တောင်းဆိုမှု',
+			'k_0n2x5s0': ({required Object option2}) => ' Authentication ကို မက်ဆေ့ခ်ျ ကို: $option2',
+			'k_03c1nx0': 'သေဘာတူ',
+			'k_03aw9w8': 'ငြင်းပယ် ခံရ',
+			'k_038ryos': 'ကိုင်တွယ် ဖြေရှင်းဖို့',
+			'k_0gw8pum': 'အဖွဲ့ ဝင်လျှောက်လွှာ',
+			'k_1gcvfrj': 'ကျေးဇူး ပြုပြီး မှတ်ချက်များကိုဖြည့်ပါ',
+			'k_002v9zj': 'အတည်ပြု',
+			'k_10oqrki': 'ထိပြီး ဓာတ်ပုံရိုက်ပါ',
+			'k_0f8b3ws': 'Loading in... မအောင်မြင်ပါ',
+			'k_11cm5lm': 'လက်စွဲ  focus',
+			'k_002uzrd': 'Preview ကို',
+			'k_003qkn3': ' ကြိုကြည့်',
+			'k_003k6a7': 'ဓာတ်ပုံရိုက် ပါ',
+			'k_0bqpqco': 'ဓါတ်ပုံရိုက် Button',
+			'k_1626ozl': 'ဗီဒီယိုရိုက်ခြင်း ကို ရပ်ပါ',
+			'k_003lvmu': 'ရှေ့',
+			'k_003lued': 'နောက်ဘက်',
+			'k_003lwzh': 'ပြင်ပ',
+			'k_002qzi3': 'ပိတ်',
+			'k_003pufb': 'အလို အလျှောက်',
+			'k_0apm0ze': 'ဓာတ်ပုံရိုက် နေစဉ် လျှပ်တပြက်မီး',
+			'k_157zog5': ' အမြဲ လျှပ်တပြက်မီး',
+			'k_0cfyqhy': ({required Object option1}) => '$option1 Screen Preview',
+			'k_0phctlz': ({required Object option2}) => 'Flash Mode : $option2',
+			'k_02vfqe0': ({required Object option3}) => '$option3 ကင်မရာ သို့ပြောင်း ပါ',
+			'k_0f0y9ex': 'စကားပြောအချိန် တိုလွန်းသည်',
+			'k_0ln70tk': 'URL ကို ဖွင့် လို့ မရဘူး',
+			'k_11a3jdv': 'ထိပြီးဓာတ်ပုံရိုက်ပါ',
+			'k_1k18miv': 'ပင်မ စာမျက်နှာ သို့မဟုတ်အခြား စာမျက်နှာ သို့ပြန် သွားရန် လမ်းညွှန် နည်းလမ်းတစ်ခု ပေးရန် အုပ်စု မှထွက်ခွာ သည့် ဘဝသံသရာလည်ပတ်မှု ကိုဖြတ်သန်းပါ။',
+			'k_0gmwbnd': 'တားမြစ် ချက် အပြည့်အဝ',
+			'k_0got2zr': 'မင်းကို စကားပြော ပိတ်ပင် ထားတယ်',
+			'k_0y9jck8': 'search bar ကို စိတ်ကြိုက် ပြုပြင် ပြီး click-jump ကိုကိုင်တွယ် ရမယ်',
+			'k_0yum3tv': 'စိတ်ကြိုက် area ရိယာ ကိုအသုံးပြု ရန်အတွက် သက်ဆိုင်ရာ အစိတ် အပိုင်းကို profileWidgetBuilder တွင် သွားပါ',
+			'k_09kalj0': 'Chat history ကို ရှင်း ပါ',
+			'k_14j5iul': 'ဖျက် ပြီး ထွက် ပါ',
+			'k_125ru1w': ' အုပ်စု ဖျက်သိမ်း',
+			'k_0jtutmw': 'ထွက်ပေါက် ပြီးနောက် ဤ အုပ်စုလိုက် စကားဝိုင်း မက်ဆေ့ခ်ျ ကိုလက်ခံရရှိ လိမ့်မည်မဟုတ် ပါ',
+			'k_0jtzmqa': 'ဖျက်သိမ်း ပြီးနောက် ဤ အုပ်စု chat မက်ဆေ့ခ်ျ ကိုလက်ခံရရှိ လိမ့်မည်မဟုတ် ပါ',
+			'k_0r8fi93': 'Friend Add Successful',
+			'k_02qw14e': 'သူငယ်ချင်း လျှောက်လွှာ ထုတ်ပေး သည်',
+			'k_0n3md5x': 'လက်ရှိ သုံးစွဲ သူများသည် နာမည်ပျက် စာရင်း ထဲတွင် ရှိသည်',
+			'k_094phq4': 'သူငယ်ချင်း ပေါင်းထည့် မှု မအောင်မြင် ပါ',
+			'k_129scag': 'သူငယ်ချင်း ဖျက် မှု အောင်မြင်',
+			'k_129uzfn': 'သူငယ်ချင်း ဖျက် မှု မအောင်မြင် ပါ',
+			'k_1666isy': 'မိတ်ဆွေ များကို ရှင်းလင်း ပါ',
+			'k_1679vrd': 'သူငယ်ချင်း အဖြစ် ထည့် ပါ',
+			'k_0h18bbi': 'ခေါ်ဆို မှုကို အဆုံးသတ် ပါ',
+			'k_154q2hn': 'ခေါ်ဆိုမှုအချိန်ကုန် မကိုင်ပါ',
+			'k_1mnjtnc': 'အခြား ပါတီ ချိတ်ဆွဲ ထားသည်',
+			'k_0l0mysn': 'အမှား တစ်ခု ဖြစ်ပွား ခဲ့သည်:',
+			'k_03fn6rg': ' တုံ့ပြန် မှုမရှိ',
+			'k_003luo3': 'အလုပ်များ လိုင်းမအား',
+			'k_154jvfi': ' သင့်ကိုအော့ဖ်လိုင်း ကန်ခဲ့ကြသည်',
+			'k_1sp7jp6': 'ခေါ်ဆိုမှု ကိုဖျက်သိမ်း လိုက် သည်',
+			'k_1045haa': ' ဖိတ်ကြား ချက် ကိုလက်ခံ ရန် အခြား ပါတီကို စောင့် နေ...',
+			'k_1gq7jv7': 'ခေါ်ရန်သင့်အား ဖိတ်ခေါ်သည်...',
+			'k_003m7ey': 'ဖုန်းချလိုက်သည်',
+			'k_03ectox': 'စပီကာ',
+			'k_003q2a4': 'ဖြေ',
+			'k_03ftugq': 'Camera',
+			'k_10setgr': 'အသံ ခေါ်ဆိုမှု ကိုဖြတ် ပါ',
+			'k_1g7i9jz': 'ကင်မရာ ပြောင်း ပါ',
+			'k_15ml1ls': 'အဖြေ ကို စောင့် ပါ',
+			'k_0nj9x9s': 'Multiplayer ခေါ်ဆိုမှု တွင်ပါဝင် ရန် သင့်အား ဖိတ်ခေါ် ပါ',
+			'k_1vtto3l': 'ခေါ်ဆို မှုတွင်ပါ၀င်ပါ:',
+			'k_0h147mx': 'စကားပြော နေ',
+			'k_0j6aylo': ({required Object option1}) => 'စကားပြော ချိန်:$option1',
+			'k_1fu9ahv': 'အပြည့်အဝ ပိတ်ပင် ထား status ကို',
+			'k_1ualc52': 'အခြား ပါတီမှ ယူဆောင် လာသည့် အချက်အလက်များကို ကြည့်ပါ',
+			'k_0szluvp': 'အခြား ပါတီ ၏အွန်လိုင်း အခြေအနေ ကိုသတ်မှတ် ပါ',
+			'k_0f4rnf8': 'အသုံးပြုသူသည် သူငယ်ချင်း ဖြစ်သည်',
+			'k_1tdkom4': 'သင်သည်အုပ်စုတစ်စု အဖွဲ့ဝင်တစ်ဦးဖြစ်သည်',
+			'k_1p2lyuz': 'သင့်ကို...',
+			'k_1g8wfpy': ({required Object option1}) => '...total $option1',
+			'k_12rv9vw': 'တုံ့ပြန်မှု အသေးစိတ်',
+			'k_0n9p7g8': 'အုပ်စု မတည် ရှိပါ',
+			'k_1tdh5vn': 'သင် အဖွဲ့၀င် မဟုတ်ပါ',
+			'k_0h1q57v': 'အဖွဲ့ ၀င်မရှိပါ',
+			'k_0y5drq1': ({required Object option1}) => '[အသေးစိတ်ကြည့်ရန် >>]($option1)',
+			'k_03pjp61': '[Emoji မက်ဆေချ်]',
+			'k_1jpvzul': '[စိတ်ကြိုက်မက်ဆေချ်]',
+			'k_03u3bh1': '[ဖိုင် မက်ဆေ့ခ်ျ]',
+			'k_1odsnsw': '[Group Message]',
+			'k_03sel4t': '[ဓာတ်ပုံမက်ဆေချ်]',
+			'k_03sfw3r': '[တည်နေရာ သတင်းစကား]',
+			'k_03xpuwq': '[Message ကို ပေါင်း ပါ]',
+			'k_07ycxwo': '[ဒြပ်စင် မရှိပါ]',
+			'k_03rc9vz': '[စာသား မက်ဆေ့ခ်ျ]',
+			'k_046uopf': '[ ဗီဒီယို မက်ဆေ့ခ်ျ များ]',
+			'k_0ehmsun': 'ကိရိယာသိုလှောင်ရန်နေရာ မလုံလောက်ပါ၊ပိုမိုကောင်းမွန်သော အတွေ့အကြုံအတွက် သန့်ရှင်းရေးလုပ်ရန် အကြံပြုပါသည်',
+			'k_003kmos': 'Image',
+			'k_002s86q': 'Video',
+			'k_06bk5ei': 'ဗီဒီယို မက်ဆေ့ခ်ျ များကို mp4 format ဖြင့်သာ ကန့်သတ် ထားသည်',
+			'k_13opfxf': 'ဝက်ဘ် စာမျက်နှာ ပေါ်တွင် ရှာဖွေခြင်းကို မပံ့ပိုးပါ',
+			'k_1i0o0y2': 'Android/iOS အတွက် သာ ယာယီ',
+			'k_045dtzl': ({required Object option1}) => '$option1 စကားပြော မှတ်တမ်း',
+			'k_0t0131u': 'အုပ်စု ဒေတာ သတင်းအချက်အလက်',
+			'k_18ok8xz': ' မက်ဆေ့ခ်ျ ကိုလက်ခံ ခြင်းနည်းလမ်း',
+			'k_03ax3ks': ' Group မှ ဒေတာ',
+			'k_0sqvoqo': ({required Object option1}) => ' $option1 စီမန်ခံခွဲသူ အဖြစ် သတ်မှတ်',
+			'k_1gbg1v8': ({required Object option1}) => ' $option1  စီမန်ခံခွဲသူ ကို ပယ်ဖျက်ပါ',
+			'k_17k64g4': 'Group Chat ဖန်တီး မှုသည် အောင်မြင် ပါသည်။',
+			'k_05mn217': 'Emoji pack plugin ကိုတပ်ဆင် ထား ခြင်းမရှိသေးပါ။ အကယ်၍ သင်သည် emoji နှင့်သက်ဆိုင်သော လုပ်ဆောင်ချက်များ ကိုအသုံးပြုရန် လိုအပ်ပါက ကျေးဇူးပြု၍ ဤ စာရွက်စာတမ်း နှင့်အညီထည့်သွင်း ပါ',
+			'k_14j17nz': 'Emoji အထုပ် မရှိပါ',
+			'k_1tmlcf0': 'ခေါ်ဆိုမှု အသစ်တစ်ခု ဝင်လာ သော်လည်း ခွင့်ပြုချက် မလုံလောက် သောကြောင့် မ ဖြေ နိုင်ပါ။ ကင်မရာ/မိုက်ကရို ဖုန်း ခွင့်ပြု ချက်များ ဖွင့် ထားကြောင်း သေချာ ပါစေ။',
+			'k_0fvjexh': 'ဒေါင်းလုပ် လုပ် နေသည်',
+			'k_1cdagzz': 'Download လုပ်ရန် တန်းစီ နှင့်အခြား ဖိုင်များကို ဒေါင်းလုပ် လုပ် သည်',
+			'k_0g4vojc': 'ဒေါင်းလုပ် စတင် ပါ',
+			'k_026hiq5': ' မက်ဆေ့ခ်ျ ကို စာရင်း loaded ဖြစ်ပါတယ်',
+			'k_0b9q00i': '腾讯大厦/////深圳市南山区深南大道10000号',
+			'k_03fw6h1': 'ရှန်ကျန်း',
+			'k_0f7mdn7': 'ပြန်လည်ရယူ ခြင်း မအောင်မြင် ပါ',
+			'k_158cssa': 'Tencent မြေပုံ',
+			'k_157htdw': ' Gaode မြေပုံ',
+			'k_157im4z': ' Baidu မြေပုံ',
+			'k_157m20e': 'ပန်းသီး မြေပုံ',
+			'k_1bqk7kl': 'Gaode မြေပုံ ကိုရှာ မတွေ့ ပါ',
+			'k_12ba1nv': 'Tencent မြေပုံ မတွေ့ ပါ',
+			'k_1dz8sci': ' Baidu မြေပုံ ကိုရှာ မတွေ့ ပါ',
+			'k_0f7fvky': 'အဖွင့် မအောင်မြင် ပါ',
+			'k_1l2v0we': 'Tencent အဆောက်အအုံ အတွင်း ၊ China Merchants Bank Information R & D အဆောက်အအုံ အနီး ၁၈ မီတာ',
+			'k_10o8gk2': '搜索地 နေရာ ရှာပါ点',
+			'k_10o86v7': 'အမည်မသိ နေရာ',
+			'k_0elt0kw': 'Group Chat ထည့် ပါ',
+			'k_03f15qk': 'အမည်ပျက် စာရင်း',
+			'k_0s3p3ji': 'အမည်ပျက် စာရင်း မရှိ သေးပါ',
+			'k_0uc5cnb': '我们还在内测中，暂不支持创ကျွန်ုပ်တို့သည် အတွင်းပိုင်းစမ်းသပ်ဆဲဖြစ်ပြီးချန်နယ်များဖန်တီးခြင်းကိုမ ထောက်ပံ့ပါ建频道。',
+			'k_0s5ey0o': 'အချိန်နှင့်တပြေးညီ အသံ နှင့် ဗွီဒီယို TRTC',
+			'k_03gpl3d': 'အားလုံး မင်္ဂလာပါ',
+			'k_0352fjr': 'ကွန်ယက် ချိတ်ဆက် မှုမရှိ ပါ၊ ချန်နယ် ဆက်သွယ်မှု မအောင်မြင် ပါ',
+			'k_0d7n018': 'ခေါင်းစဉ် ကို အဆုံးသတ် ပါ',
+			'k_0d826hk': ' ထိပ်တန်း ခေါင်းစဉ်',
+			'k_15wcgna': 'အောင်မြင်မှုကို အဆုံးသတ်ခဲ့သည်',
+			'k_15wo7xu': 'ထိပ်တန်း အောင်မြင်မှု',
+			'k_02slfpm': ({required Object errorMessage}) => 'အမှား တစ်ခု ဖြစ်ပွား ခဲ့သည် $errorMessage',
+			'k_0h22snw': 'အသံ ခေါ်ဆိုမှု',
+			'k_0h20hg5': 'ဗီဒီယိုခေါ်မှု',
+			'k_002s934': 'ခေါင်းစဉ်',
+			'k_18g3zdo': '云通信·IM',
+			'k_1m8vyp0': 'အဆက်အသွယ် အသစ်',
+			'k_0elz70e': 'ကျွန်ုပ်၏ အုပ်စု chat',
+			'k_18tb4mo': 'အဆက်အသွယ် မရှိ',
+			'k_18nuh87': 'ဆက်သွယ်ရန်',
+			'k_1uf134v': 'တုံ့ပြန် ချက်နှင့် အကြံပြုချက်များကို QQ အုပ်စု တွင်ထည့်သွင်း နိုင်သည်-788910197 ',
+			'k_0xlhhrn': 'အွန်လိုင်း အချိန်၊ တနင်္လာနေ့ မှ သောကြာ နေ့၊ နံနက် ၁၀ နာရီမှ ည ၈ နာရီ',
+			'k_0gmpgcg': 'စကားဝိုင်း မရှိသေးပါ',
+			'k_1m8zuj4': 'ဆက်သွယ်ရန် ရွေးပါ',
+			'k_002tu9r': 'စွမ်းဆောင်ရည်',
+			'k_0vwtop2': ({required Object getMsg}) => 'ရရှိသော မက်ဆေ့ခ်ျ: $getMsg',
+			'k_0upijvs': ({required Object message}) => 'ဆွေးနွေး ခန်း စာရင်း ရယူ ခြင်း မအောင်မြင် ပါ $message',
+			'k_1tmcw5c': 'ကျေးဇူး ပြုပြီး ခေါင်းစဉ် ကို ဖြည့် ပါ',
+			'k_1cnmslk': 'တံဆိပ် တစ်ခု ရွေး ရမည်',
+			'k_0v5hlay': ({required Object message}) => 'ခေါင်းစဉ်များ ဖန်တီးရာတွင် မအောင်မြင်မှု $message',
+			'k_0z3ytji': 'ခေါင်းစဉ် များ ဖန်တီးရာတွင် အောင်မြင်မှု',
+			'k_1a8vem3': 'Creator  ခြွင်းချက်',
+			'k_0eskkr1': 'ဆွေးနွေးမှု ဖိုရမ် ကိုရွေးချယ် ပါ',
+			'k_0d7plb5': 'ခေါင်းစဉ် ဖန်တီး ပါ',
+			'k_144t0ho': '---- 相关讨论 ----',
+			'k_0pnz619': 'ခေါင်းစဉ် ခေါင်းစဉ်ဖြည့်ပါ',
+			'k_136v279': '+ tag (အနည်းဆုံး တစ်ခု ထည့် ပါ)',
+			'k_04hjhvp': 'ဆွေးနွေးမှု parameter သည် ခြွင်းချက်',
+			'k_002r79h': 'အားလုံး',
+			'k_03ejkb6': 'ပူးပေါင်း',
+			'k_172tngw': ' ခေါင်းစဉ် (ချိတ် ဆက်မ ထားပါ)',
+			'k_0rnmfc4': 'ဒီ ဖိုရမ် အောက်မှာ ခေါင်းစဉ် မရှိပါ',
+			'k_1pq0ybn': 'မည်သည့် ခေါင်းစဉ် မှ မထည့် ရသေး ပါ',
+			'k_0bh95w0': 'အင်တာနက် ဆက်သွယ် မှုမရှိပါ၊ခေါင်းစဉ်ထဲသို့၀င်ရောက်ခြင်းမအောင်မြင် ပါ',
+			'k_0em28sp': 'အုပ်စုလိုက် စကားဝိုင်း မရှိပါ',
+			'k_04dqh36': 'အဆက်အသွယ် အသစ် မရှိပါ',
+			'k_08k00l9': 'Loading လုပ်နေ ပါတယ်...',
+			'k_197r4f7': 'လက်ငင်း စာတို ပေးပို့ ရေး ဝန်ဆောင်မှု ဆက်သွယ်မှု အောင်မြင် ခဲ့သည်',
+			'k_1s5xnir': 'လက်ငင်း စာတို ပေးပို့ ရေး SDK စတင် မအောင်မြင် ပါ',
+			'k_0owk5ss': ({required Object failedReason}) => 'ဝင်ရန် မအောင်မြင် ပါ $failedReason',
+			'k_15bxnkw': 'ကွန်ယက် ဆက်သွယ်မှု ပျောက်ဆုံး နေသည်',
+			'k_0glj9us': 'စကား စတင်ခြင်း',
+			'k_1631kyh': 'အလုပ် အဖွဲ့ တစ်ခုဖန်တီး ပါ',
+			'k_1644yii': ' လူမှုရေး အုပ်စု များကိုဖန်တီး ပါ',
+			'k_1fxfx04': 'အစည်းအဝေး အုပ်စု တစ်ခုဖန်တီး ပါ',
+			'k_1cnkqc9': 'တိုက်ရိုက်အုပ်စု တစ်ခုဖန်တီးပါ',
+			'k_002r09z': 'ချန်နယ်',
+			'k_003nvk2': 'မက်ဆေ့ချ်',
+			'k_1jwxwgt': 'Connected in...',
+			'k_03gm52d': 'လိပ်စာ စာအုပ်',
+			'k_003k7dc': 'ကျွနု်ပ်',
+			'k_14yh35u': 'Login · လက်ငင်း စာတို ပေးပို့ ရေး',
+			'k_0st7i3e': 'Group chat ၊ audio နှင့် video dialog စသည့် IM လုပ်ဆောင်ချက်များကို တွေ့ကြုံ ခံစား ပါ',
+			'k_0cr1atw': '中国大陆',
+			'k_0mnxjg7': '欢迎使用腾讯云即时通信 IM，为保护您的个人信息安全，我们更新了《隐私政策》，主要完善了收集用户信息的具体内容和目的、增加了第三方SDK使用等方面的内容。',
+			'k_1545beg': ' ကျေးဇူးပြု၍ နှိပ် ပါ',
+			'k_0opnzp6': 'အသုံးပြုသူ protocol ကို',
+			'k_00041m1': ' နှင့်',
+			'k_0orhtx0': ' Privacy ကို သဘောတူညီချက်',
+			'k_11x8pvm': 'ဂရုတစိုက်ဖတ်ပါ၊ အထက်ပါကို သင်သဘောတူ ပါက ကျွန်ုပ်တို့၏ ထုတ်ကုန်များနှင့် ၀န်ဆောင်မှုများကိုစတင် အသုံးပြုရန် \'Agree and Continue\' ကိုနှိပ်ပါ။',
+			'k_17nw8gq': 'သဘောတူပြီး ဆက်သွားပါ',
+			'k_1nynslj': 'သဘောမတူခြင်းနှင့် ဆုတ်ခွာ',
+			'k_0jsvmjm': 'ကျေးဇူးပြု၍ သင်၏ ဖုန်းနံပါတ် ကိုရိုက် ထည့် ပါ',
+			'k_1lg8qh2': 'မိုဘိုင်း ဖုန်းနံပါတ် မမှန်ကန်ပါ',
+			'k_03jia4z': 'ကွန်ယက် ချိတ်ဆက်မှု မရှိပါ',
+			'k_007jqt2': 'အတည်ပြု ကုဒ် ကိုအောင်မြင်စွာ ပေးပို့ ခဲ့သည်',
+			'k_1a55aib': 'အတည်ပြု ကုဒ် ချွင်းယွင်းချက်',
+			'k_1mw45lz': ({required Object errorReason}) => 'ဝင်ရန် မအောင်မြင်ပါ$errorReason',
+			'k_16r3sej': 'နိုင်ငံ/ဒေသ',
+			'k_15hlgzr': 'သင့် နိုင်ငံ code ရိယာ ကုဒ် ကိုရွေးချယ် ပါ',
+			'k_1bnmt3h': 'ကျေးဇူးပြု၍ အင်္ဂလိပ်လိုရှာပါ',
+			'k_03fei8z': 'မိုဘိုင်း ဖုန်းနံပါတ်',
+			'k_03aj66h': 'အတည်ပြု ကုဒ်',
+			'k_1m9jtmw': 'ကျေးဇူး ပြုပြီး အတည်ပြု ကုဒ် ရိုက်ထည့်ပါ',
+			'k_0y1wbxk': 'အတည်ပြုကုဒ် ရယူ ပါ',
+			'k_002ri2g': ' ဝင်ပါ',
+			'k_161ecly': 'လောလောဆယ် ကွန်ယက် မရှိပါ ',
+			'k_11uz2i8': 'ကွန်ယက် ကိုပြန်လည် ဆက်သွယ်ကြည့်ပါ။',
+			'k_1vhzltr': 'Tencent Cloud Instant Messaging IM',
+			'k_0j433ys': ' Tencent Cloud TRTC',
+			'k_0epvs61': 'Replace skin',
+			'k_12u8g8l': 'မသက်ဆိုင် ကြောင်း ရှင်းလင်းချက်',
+			'k_1p0j8i3': 'IM即时通信（\'本产品\'）是由腾讯云提供的一款测试产品，腾讯云享有本产品的著作权和所有权。本产品仅用于功能体验，不得用于任何商业用途。为配合相关部门监管要求，本产品音视频互动全程均有录音录像存档，严禁在使用中有任何色情、辱骂、暴恐、涉政等违法内容传播。',
+			'k_0k7qoht': 'မည်သည့် အသုံးပြု သူနှင့် သူငယ်ချင်း ကိုမဆို သဘောတူပါ',
+			'k_1j91bvz': 'TUIKIT သည် သင့် အတွက် avatar တစ်ခု ကိုရွေးချယ်သည်',
+			'k_1wmkneq': 'ငါ မိတ်ဆွေတစ်ဦး အဖြစ် ထည့်သွင်း သောအခါ အတည်ပြု ရန်လိုအပ် သည်',
+			'k_1eitsd0': '关于腾讯云·通信',
+			'k_1919d6m': 'သီးသန့် တည်ရှိမှု စည်းမျဉ်းများ',
+			'k_0wqhgor': 'ကိုယ်ရေးကိုယ်တာ အချက်အလက် စုဆောင်းခြင်း စာရင်း',
+			'k_12rfxml': 'တတိယ ပါတီ သတင်းအချက်အလက် မျှဝေခြင်း စာရင်း',
+			'k_131g7q4': 'အကောင့် ကို ပယ်ဖျက်ပါ',
+			'k_03fel2u': 'ဗားရှင်း နံပါတ်',
+			'k_16kts8h': 'လော့ ဂ်အင် ထွက်ပါ',
+			'k_13spdki': 'မက်ဆေ့ချ် ပို့ပါ',
+			'k_14c600t': 'မှတ်စု များကိုပြုပြင်ပါ',
+			'k_1f811a4': 'နံပါတ် များ၊ အင်္ဂလိပ် ၊ မျဉ်းသား များကိုထောက်ပံ့ သည်',
+			'k_11z7ml4': 'အသေးစိတ်',
+			'k_1ajt0b1': 'လက်ရှိ တည်နေရာ ရရှိရန် မအောင်မြင်ပါ',
+			'k_0lhm9xq': 'အောင်မြင်သော ရှာဖွေမှု ကိုစတင်ပါ',
+			'k_0fdeled': 'ရှာဖွေမှု တစ်ခု စတင်ရန် မ အောင်မြင်ပါ',
+			'k_1yh0a50': 'မြေပုံတင်ခြင်း ပြီးဆုံးသည်',
+			'k_1t2zg6h': 'ရုပ်ပုံ အတည်ပြုကုဒ် စစ်ဆေးမှု မအောင်မြင်ပါ',
+			'k_03ibfd2': 'တနင်္ဂနွေနေ့',
+			'k_1o7lf2y': ({required Object errorMessage}) => 'ဆာဗာ အမှား: $errorMessage',
+			'k_118l7sq': ({required Object requestErrorMessage}) => 'တောင်းဆိုမှု အမှား: $requestErrorMessage',
+			'k_003nfx9': 'နက်နဲ့',
+			'k_003rvjp': '轻快',
+			'k_003rtht': '明媚',
+			'k_003qxiw': '梦幻',
+			'k_0s5zoi3': ({required Object option1}) => 'အမှားတစ်ခု ဖြစ်ပွားခဲ့သည် $option1',
+			'k_0i8egqa': ({required Object option8}) => 'ရရှိလာတဲ့ သတင်းစကား:$option8',
+			'k_0pokyns': ({required Object option8}) => 'ဆွေးနွေး ခန်းစာရင်း ရရှိရန် မအောင်မြင်ပါ $option8',
+			'k_1y03m8a': ({required Object option8}) => 'ခေါင်းစဉ် ဖန်တီးခြင်း မအောင်မြင်ပါ $option8',
+			'k_1v6uh9c': ({required Object option8}) => 'ဝင်ရန် မအောင်မြင်ပါ $option8',
+			'k_0t5a9hl': ({required Object option1}) => 'ဝင်ရန် မအောင်မြင်ပါ $option1',
+			'k_0k3uv02': ({required Object option8}) => 'ဆာဗာ အမှား：$option8',
+			'k_1g9o3kz': ({required Object option8}) => 'ရရှိလာတဲ့ $option8',
+			'k_14cahuz': '关于腾讯云 · IM',
+			'k_0llnalm': 'SDK版本号',
+			'k_13dyfii': '应用版本号',
+			'k_12h52zh': '隐私政策',
+			'k_0fxhhwb': '用户协议',
+			'k_18z2e6q': 'IM即时通信（\'本产品\'）是由腾讯云提供的一款测试产品，腾讯云享有本产品的著作权和所有权。本产品仅用于功能体验，不得用于任何商业用途。严禁在使用中有任何色情、辱骂、暴恐、涉政等违法内容传播。',
+			'k_0zu7dd7': 'သတင်းအချက်အလက် စုဆောင်းခြင်း စာရင်း',
+			'k_0mcqhgh': 'သတင်းအချက်အလက် မျှဝေခြင်း စာရင်း',
+			'k_12eqaty': 'အကောင့် ဖျက်သိမ်း မှု ကိုအတည်ပြုပါ',
+			'k_0ziqsr6': 'အကောင့် ဖျက်သိမ်း မှု အောင်မြင် ခဲ့သည်',
+			'k_002qtgt': 'ဖျက်သိမ်းပါ\'',
+			'k_0rvdu91': ({required Object option1}) => 'အကောင့် ဖျက်သိမ်း လုပ်ပြီးရင် လက်ရှိ အကောင့်ကိုသုံးလို့မရတော့ဘဲ သက်ဆိုင်ရာ ဒေတာတွေကို ဖျက်ပြီးပြန် မရနိုင်တော့ ပါဘူး။လက်ရှိ အကောင့် ID $option1',
+			'k_15d22qk': 'အကောင့် ဖျက်သိမ်းပါ',
+			'k_036uv3f': '腾讯云IM',
+			'k_167916k': '微信好友',
+			'k_03euwr1': '朋友圈',
+			'k_0cxccci': 'ဗီဒီယိုခေါ်မှု ကို ဖိတ်ခေါ်ပါ',
+			'k_06lhh4b': 'အသံဖြင့် ခေါ်ဆိုရန် သင့်အား ဖိတ်ခေါ်ပါ',
+			'k_1ywo9ut': '即时通信 IM (Instant Messaging)基于 QQ 底层 IM 能力开发，仅需植入 SDK 即可轻松集成聊天、会话、群组、资料管理和直播弹幕能力，也支持通过信令消息与白板等其他产品打通，全面覆盖您的业务场景，支持各大平台小程序接入使用，全面满足通信需要',
+			'k_0ios26v': 'WeChat installation ကို မတွေ့ပါ',
+			'k_1jg6d5x': ' သီးသန့်တည်ရှိမှု မူဝါဒ အကျဉ်းချုပ်',
+			'k_0selni4': 'သီးသန့် တည်ရှိမှု မူဝါဒ',
+			'k_10s6v2i': 'သတင်းအချက်အလက် စုဆောင်းခြင်း စာရင်း',
+			'k_0pasxq8': 'သတင်းအချက်အလက် မျှဝေ ခြင်း စာရင်း',
+			'k_003r6vf': 'ဝင်ပါ',
+			'k_03f2zbs': 'Share',
+			'k_0cfkcaz': 'Message Push ကို',
+			'k_1rmkb2w': 'ချက်တင်စာ အသစ်တွန်းပါ',
+			'k_1lg375c': 'သတင်းအသစ် သတိပေးချက်',
+			'k_1t0akzp': ({required Object option1}) => '注销后，您将无法使用当前账号，相关数据也将删除且无法找回。当前账号ID: $option1',
+			'k_1699p6d': '腾讯大厦',
+			'k_1ngd60h': '深圳市深南大道10000号',
+			'k_1na29vg': '位置消息维护中',
+			'k_1xmms9t': 'အုပ်စု လျှောက်လွှာ စာရင်း',
+			'k_0dla4vp': '反馈及建议可以加入QQ群',
+			'k_1odrjd1': '在线时间: 周一到周五，早上10点 - 晚上8点',
+			'k_1bh903m': 'QQ群号复制成功',
+			'k_16264lp': 'အုပ်စုနံပါတ် ကိုကူးယူပါ',
+			'k_18ger86': '腾讯云 · IM',
+			'k_1vd70l1': '服务亿级 QQ 用户的即时通讯技术',
+			'k_036phup': 'Tencent တိမ်တိုက် IM',
+			'k_0gfsln9': 'သတင်းအချက်အလက် ပြောင်းလဲ သွားပြီ',
+			'k_0ow4akh': '请根据Demo的READ ME指引，配置百度AK，体验DEMO的位置消息能力',
+			'k_1kzh3lo': '请根据本文档指引 https://docs.qq.com/doc/DSVliWE9acURta2dL ， 快速体验位置消息能力',
+			'k_161zzkm': 'ကျေးဇူးပြု၍ အသုံးပြုသူ အမည် ထည့်ပါ',
+			'k_1veosyv': '请在环境变量中写入key',
+			'k_03exdnb': 'အသုံးပြုသူ အမည်',
+			'k_16kquu8': 'လက်ရှိ လမ်းညွှန်',
+			'k_0fbvuqs': 'စတင် ကူးယူပါ',
+			'k_16j153h': '腾讯云IM APP（\'本产品\'）是由腾讯云提供的一款测试产品，腾讯云享有本产品的著作权和所有权。本产品仅用于功能体验，不得用于任何商业用途。严禁在使用中有任何色情、辱骂、暴恐、涉政等违法内容传播。',
+			'k_13ghyf8': '【安全提示】本 APP 仅用于体验腾讯云即时通信 IM 产品功能，不可用于业务洽谈与拓展。请勿轻信汇款、中奖等涉及钱款的信息，勿轻易拨打陌生电话，谨防上当受骗。',
+			'k_0gt6cro': '点此投诉',
+			'k_03595fk': ({required Object option1}) => ' 等$option1人',
+			'k_1gpzgni': ({required Object option2}) => '$option2人群',
+			'k_02lfg57': 'Group Chat အသစ်',
+			'k_17ifd8i': 'Tencent Cloud IM ထုတ်ကုန် ဝန်ဆောင်မှုများကို တွေ့ကြုံ ခံစား ရန် ဤ APP မှ ကြိုဆို ပါသည်',
+			'k_1f0ms23': 'မက်ဆေ့ခ်ျ ကိုဖတ် ပါ status ကို',
+			'k_1c0x9ha': '关闭后，您收发的消息均不带消息阅读状态，您将无法看到对方是否已读，同时对方也无法看到你是否已读。',
+			'k_1dzhdr5': 'အွန်လိုင်း အခြေအနေကိုပြပါ',
+			'k_0mwsniq': 'ပိတ်ပြီးသောအခါ၊ session list နှင့် လိပ်စာ စာအုပ် ရှိ သူငယ်ချင်း များအတွက် အွန်လိုင်း သို့မဟုတ် အော့ဖ်လိုင်း status prompts များကိုသင် မမြင်နိုင်ပါ။',
+			'k_0f7h6ay': 'ဆက်သွယ်မှု မအောင်မြင်ပါ',
+			'k_0wreawq': 'Baidu မြေပုံ ပလပ် အင် သည် ဝက်ဘ် ဗားရှင်း ကို ယခုအချိန်တွင် မထ ောက် ပံ့ ပါ။ ကျေးဇူးပြု၍ မိုဘိုင်း အက် ပလီကေးရှင်း DEMO ကို အသုံးပြု၍ တည်နေရာ မက်ဆေ့ခ်ျ စွမ်းရည်ကို တွေ့ကြုံ ခံစား ပါ',
+			'k_03c56co': 'မရွေး ချယ်ပါ',
+			'k_1klqdh1': 'တရုတ် အက္ခရာ များ၊ အင်္ဂလိပ် ၊ နံပါတ် များနှင့် underscores များသာ',
+			'k_03el5lp': 'မရေးရသေး',
+			'k_0554lam': 'သူငယ်ချင်း များ အဖွဲ့',
+			'k_1hyz1ua': 'လူစိမ်း လူမှုရေး အုပ်စု',
+			'k_1s8hjin': 'ကြားဖြတ် အစည်းအဝေး အဖွဲ့',
+			'k_16ejs8f': 'Live အဖွဲ့',
+			'k_1rqdzbh': 'အသိုင်းအဝိုင်း',
+			'k_1aue1b6': 'သာမန် WeChat အုပ်စုများ နှင့်ဆင်တူ သည် အုပ်စု အတွင်းရှိ သူငယ်ချင်း များကိုသာ ဖန်တီး ပြီးနောက် အုပ်စု ထဲသို့ထည့် ရန်ဖိတ်ကြား သည်။ ဖိတ်ကြား ထားသော ပါတီ၏ ခွင့်ပြုချက် သို့မဟုတ် ပိုင်ရှင် ၏ ခွင့်ပြုချက် မလိုအပ်ပါ',
+			'k_0uldek7': 'QQ အုပ်စု နှင့်ဆင်တူ သည် အုပ်စု ပိုင်ရှင် သည် ဖန်တီး ပြီးနောက် အုပ်စု စီမန်ခံခွဲသူကိုသတ်မှတ် နိုင်သည်။ အသုံးပြုသူသည် အုပ်စု ID ကိုရှာဖွေ ပြီး အုပ်စု လျှောက်လွှာ ကိုစတင် ပြီးနောက် အုပ်စု ပိုင်ရှင် သို့မဟုတ် စီမန်ခံခွဲသူ သည် အုပ်စု ထဲဝင် ရန် ခွင့်ပြုချက် လိုအပ်သည်။',
+			'k_1nv4w25': 'ဖန်တီး ပြီးနောက်, သင် အလိုတော် မှာ ဝင် နှင့် ထွက် နိုင်ပါတယ်, နှင့် Pre-entry ကို မက်ဆေ့ခ်ျ များ ကြည့်ရှု ထောက်ခံ; အသံ နှင့် ဗွီဒီယို ကွန်ဖရင့် မြင်ကွင်း များ၊ အွန်လိုင်း ပညာရေး မြင်ကွင်း များနှင့် အချိန်နှင့်တပြေးညီ အသံ နှင့် ဗွီဒီယို ထုတ်ကုန်များနှင့် ပေါင်းစပ်ထားသော အခြား မြင်ကွင်း များအတွက် သင့်လျော် သည်',
+			'k_1wbmoof': 'ဖန်တီး ပြီးနောက် သင် အလိုအလျောက် ၀ င် ထွက် နိုင်သည်။ အဖွဲ့ ၀ င် အရေအတွက် အပေါ် အကန့်အသတ် မရှိသော်လည်း သမိုင်း မက်ဆေ့ခ်ျ သိုလှောင်မှု ကိုမ ထောက်ပံ့ ပါ။ Barrage chat မြင်ကွင်း များအတွက် တိုက်ရိုက် ထုတ်ကုန် များနှင့်ပေါင်းစပ် ရန် သင့်တော်သည်။',
+			'k_11mlyaa': 'ဖန်တီး ပြီးနောက် သင်အလိုအလျောက် ၀င်ထွက်၍ ထွက်ခွာ နိုင်သည်။ လူ ဦး ရေ ၁သိန်းအထိ အထောက်အပံ့ ပေးသည်။ သမိုင်း မက်ဆေ့ခ်ျ သိုလှောင်မှု ကိုထောက်ပံ့ နိုင်သည်။ အသုံးပြုသူသည် အုပ်စု ID ကိုရှာဖွေ ပြီး အုပ်စု လျှောက်လွှာ ကိုစတင် ပြီးနောက် စီမံခန့်ခွဲ သူ၏ ခွင့်ပြုချက် မရပဲ အုပ်စုထဲဝင် နိုင်သည်။',
+			'k_0ylgdrb': 'Community DEMO သည် ဖွံ့ဖြိုးဆဲ ဖြစ်ပြီး မကြာမီ စတင် တော့မည် ဖြစ်သည်',
+			'k_0elsjm2': 'Group Chat ဖန်တီး ပါ',
+			'k_1iw4gdk': 'မည်သူမဆို ခွင့်ပြုပါ',
+			'k_0i5ffqf': 'သတင်းအချက်အလက် အတည်ပြု ရန်လိုအပ်သည်',
+			'k_111mgqj': ' ငါ့ကို သူငယ်ချင်း အဖြစ် မထည့် ပါ နှင့်',
+			'k_03go2lu': 'သတ်မှတ် မထား',
+			'k_15zb99m': 'ငါ့ကို မိတ်ဆွ တစ်ဦးအဖြစ် ထည့်သွင်း ဖို့ နည်းလမ်း',
+			'k_1llp7tu': 'အသုံးပြုသူ မရှိပါ',
+			'k_0tbyqyb': 'Loading in...',
+			'k_0td1p3f': 'သိမ်းဆည်း ထားသည် …',
+			'k_1ui0gai': 'သတ်မှတ် ချက်ကို ရှာဖွေပေးပါ။',
+			'k_03agld7': 'အုပ်စုလိုက် အရိပ်အမြွက်',
+			'k_002wkr3': 'ဘာသာပြန်',
+			'k_13g4hxv': 'ဘာသာပြန် ပြီး',
+			'k_003mmoz': 'ဒုံးပျံ',
+			'k_003nogx': 'လေယာဉ်',
+			'k_003pjj6': 'သရဖူ',
+			'k_000340k': 'ပန်း',
+			'k_0cv8ngo': ({required Object option1}) => 'ပေးသည်။$option1',
+			'k_03a2zjl': 'လက်ဆောင်ပေးသည်',
+			'k_0003yq8': '朵',
+			'k_13k5228': 'Live အခန်း ကို ချီးမွမ်း ခဲ့သည်',
+			'k_1k0rrvn': 'တစ်ခုခု ပြောပါ...',
+			'k_13jzi5y': 'တိုက်ရိုက် ထုတ်လွှင့် ခန်း ကိုရိုက် ထည့်ပါ',
+			'k_14asoqo': 'cancel follow ',
+			'k_003ohwe': 'Follow',
+			'k_1h33pzv': ({required Object option1}) => 'ပရိသတ်တွေ $option1 |',
+			'k_07skbgr': ({required Object option2}) => ' Follow $option2',
+			'k_1c99nb3': ({required Object option1}) => '$option1 万+',
+			'k_19mfrrb': 'အွန်လိုင်း ပရိသတ်',
+			'k_13m65um': 'ပရိသတ် သတင်းအချက်အလက်',
+			'k_19kj6te': ({required Object option1}) => '$option1 本场点赞',
+			'k_1qqgjra': ({required Object option3}) => '$option3မဖတ် ရသေးသောစာ',
+			'k_0uubyjr': 'ဤတွင် မဖတ်ရသေးသော မက်ဆေ့ခ်ျ များဖြစ်သည်',
+			'k_0kg1wsx': 'အုပ်စု အမျိုးအစား ကိုရွေးချယ် ပါ',
+			'k_003m6xh': 'စက်တင်',
+			'k_18nszwl': 'ကျွန်တော် တို့အကြောင်းရာများ',
+			'k_003txiw': 'အကြောင်းအရာ',
+			'k_12fp4oc': 'တရားဝင် ဝက်ဘ်ဆိုက်',
+			'k_1391sy5': 'ပလက်ဖောင်း အားလုံး သို့ တစ်ကြိမ် တည်း တည်ဆောက်ခြင်း၊ ထုပ်ပိုး ခြင်းနှင့် ဖြန့်ကျက် ခြင်း၊ ကျယ်ပြန့်သော မျက်နှာပြင် နှင့် ကျဉ်းမြောင်းသော မျက်နှာပြင်သည် အလိုက်သင့် ပြောင်းလဲ နိုင်သည်',
+			'k_002vu95': 'ကြိုဆို ပါတယ်',
+			'k_0o6nt4d': 'ငါ ဖတ် ပြီး သဘောတူ ခဲ့သည်',
+			'k_12l2415': '腾讯云IM各项协议及规定',
+			'k_0rcqou9': 'Copyright © 2013-2023 Tencent Cloud. All Rights Reserved. 腾讯云 版权所有',
+			'k_003lmhx': 'အုပ်စု',
+			'k_1s251fa': 'ဆက်သွယ်ရန် &အုပ်စု',
+			'k_0cjp3hx': 'အသေးစိတ် အတွက် ဆက်သွယ် ရန် (သို့) အုပ်စုကို ရွေး ပါ',
+			'k_12veoax': 'Channel ကို switching',
+			'k_002rfh9': 'နိုင်ငံတကာ',
+			'k_0864lq3': 'အသုံးပြု နေစဉ်အတွင်း သင့် တွင် မေးခွန်း များ ရှိပါက အောက်ပါ လမ်းကြောင်း များမှတဆင့် ကျွန်ုပ်တို့ ကိုဆက်သွယ် ပါ',
+			'k_12625cy': 'အဖွဲ့ ထဲချက်ချင်း ဝင်ပါ',
+			'k_131lvxd': 'ကျွန်တော်အကောင့်',
+			'k_002qep7': 'Interface',
+			'k_002vbyp': 'အသွင်အပြင်',
+			'k_16owrwc': 'အလင်း အရောင် Mode ကို',
+			'k_01zair9': 'အမှောင် mode (ဖွံ့ဖြိုးဆဲ)',
+			'k_002skx2': 'အကြောင်းအရာ',
+			'k_002wzvs': 'ဘာသာစကား',
+			'k_002woft': 'အင်္ဂလိပ်',
+			'k_129eldp': 'တရုတ် ရိုးရာဘာသာ',
+			'k_129ekqk': 'ရိုးရှင်းသော တရုတ်ဘာသာ',
+			'k_002whil': 'ဂျပန်ဘာသာ',
+			'k_002wqld': 'ကိုရီးယားဘာသာ',
+			'k_003is6v': 'အထွေထွေ',
+			'k_12s2mfc': 'အသေးစိတ်ကြည့်ရန်',
+			'k_12fsjye': ' ဆက်နွယ်သည့် ဝက်ဆိုဒ်',
+			'k_16uejmj': 'ကိုယ်ပိုင်စင်တာ',
+			'k_0dtyory': 'တုံ့ပြန်ချက်',
+			'k_03oy6z4': '所有 SDK',
+			'k_03bh54n': '源代码',
+			'k_0s3sgel': 'နာမည်ပျက် စာရင်းမှ ဖယ်ရှားပါ',
+			'k_16as7eq': 'Emoji တုံ့ပြန်မှု',
+			'k_003s12u': 'ပြန်ကြားချက်',
+			'k_003s38r': 'ပိုများ',
+			'k_003molk': 'Emotion',
+			'k_165bbw6': 'မက်ဆေ့ချ် သမိုင်း',
+			'k_13sqc0z': 'မက်ဆေ့ခ်ျ ကို ရှင်းလင်းပါ',
+			'k_0glns86': 'Session ကို ဖျက်ပါ',
+			'k_13s99rx': 'Clear Message',
+			'k_11vsa3j': 'အုပ်စု မှထွက် ပါ',
+			'k_11vvszp': 'အုပ်စု ဖျက်သိမ်း',
+			'k_15i9w72': 'အုပ်စု စီမန်ခံခွဲသူ',
+			'k_0p3espj': 'မှတ်စုအမည်သတ်မှတ် ပါ',
+			'k_118sw9v': 'ယခုရှာပါ',
+			'k_1xn4cn2': 'Operating ပတ်ဝန်းကျင် ထောက်လှမ်း',
+			'k_0sy25ey': 'ဤ ပရိုဂရမ် ကိုအသုံးပြုရန် Microsoft Edge WebView2 runenvironment ကို အရင် install လုပ် ပါ',
+			'k_0g4tlsb': 'ယခု Download လုပ် ပါ',
+			'k_13ozr8k': 'လောလောဆယ် မထောက်ခံ',
+			'k_16yiku8': 'Local search ကို Web side တွင် ယာယီ မ ထောက်ပံ့ ပါ။ ကျေးဇူးပြု၍ Mobile App သို့မဟုတ် Desktop side experience ကိုသုံး ပါ',
+			'k_003lz6t': 'တစ်ဖက်',
+			'k_1xf4yre': ({required Object option1}) => '$option1 သို့ပေးပို့ ပါ',
+			'k_003por5': 'Screenshot',
+			'k_0c67rdb': 'ရွေးချယ် မှုများစွာ ခွင့်ပြုပါ',
+			'k_11lav8q': 'အမည်မသိ မဲ ပေးခြင်း',
+			'k_137cjfq': 'အများပြည်သူ ရလာဒ်များ',
+			'k_0e3jces': 'ကျေးဇူးပြုပြီး ရွေးစရာ များထည့်ပါ',
+			'k_0dcbhiz': 'ရွေးစရာအသစ်',
+			'k_003r4qf': 'တင်ပြီး',
+			'k_1xa5q8q': 'ကျေးဇူးပြုပြီး မဲခေါင်းစဉ်ထည့်ပါ',
+			'k_003nv7m': '已投',
+			'k_002ym5d': '票，',
+			'k_003pfxt': 'ရာခိုင်နှုန်း',
+			'k_0fxdch1': '未初始化投票插件，请先初始化',
+			'k_1lzoopr': '非投票消息，请检查',
+			'k_03ahybu': 'မဲပေးပီး',
+			'k_11lamu8': 'ချက်ချင်းမဲပေး',
+			'k_0b9h7nq': 'မဲပေး မှုပြီးဆုံးပြီ',
+			'k_0c7zem1': 'ထပ်ပို့',
+			'k_11l1qvo': 'မဲအဆုံးရပ်',
+			'k_0z314c0': '[ရွေးချယ် မှုများစွာ]',
+			'k_0z2zcm7': '[Single choice]',
+			'k_0y8ap8v': '[လူထုများ]',
+			'k_0y4cs5n': '[ပုဂ္ဂလိက]',
+			'k_0y6agtt': '[အမည်မသိ]',
+			'k_0y68wmo': '[အမည်အစစ်]',
+			'k_1pssgjf': ({required Object option1}) => 'ပါဝင် သူ အရေအတွက်$option1',
+			'k_0x9zkqf': ({required Object option2}) => 'အမှန်တကယ် ပါဝင် သူ အရေအတွက်: $option2',
+			'k_09ikyqj': 'ရွေးချယ်စရာ အားလုံးကို ကြည့်ပါ',
+			'k_0h2jp2z': ({required Object option1}) => '$option1票',
+			'k_0y2zr3y': '[မဲ]',
+			'k_11lci1l': 'Create Voting',
+			'k_003l988': 'မဲ',
+			'k_1rw7s82': ' ပုံမှန် အသုံးပြု ရန်အတွက် အယ်လ်ဘမ် ရှိ ဗီဒီယို ခွင့်ပြု ချက်များ ကိုရယူပါ',
+			'k_003rcwm': 'ဖွင့်',
+			'k_1698c42': 'ခရီးစဉ်အတွင်း ဖွင့်လှစ်',
+			'k_066fxsz': 'fileကြည့်ရန်',
+			'k_0k432y2': 'ပို့ လို့မရဘူး၊ ဖိုင်တွဲ အပါဝင်',
+			'k_002wb4y': 'Conversation',
+			'k_0od4qyh': 'ရုပ်သံ ဖိုင် ချွင်းယွင်းချက်',
+			'k_1cdzld5': 'ကျေးဇူးပြုပြီး ထုတ်ကုန် အချက်အလက်ဖြည့်ပါ',
+			'k_19qt9y2': 'ဝန်ဆောင်မှု အကဲဖြတ်',
+			'k_13s7ltw': 'Card Message',
+			'k_13ajr25': 'အွန်လိုင် ပေါ်တွင် ဝန်ဆောင်မှုပေးဆောင်သူ',
+			'k_0ti5mfz': 'အွန်လိုင် ပေါ်တွင် ဝန်ဆောင်မှုပေးဆောင်သူ မရှိပါ။',
+			'k_1bfkxg9': '0KB ဖိုင် လွှဲပြောင်းခြင်း ကိုမ ပံ့ပိုးပါ',
+			'k_0vvsw7g': 'ဖိုင် ချွင်းယွင်းချက်',
+			'k_06e224q': '[အဆိုပါ မက်ဆေ့ခ်ျ ကို စီမန်ခံခွဲသူ မှ ပြန်လည်ရုပ်သိမ်း ခဲ့သည်]',
+			'k_1u1mjcl': '[မက်ဆေ့ခ်ျ ကို ပြန်လည်ရုပ်သိမ်း ခဲ့သည်]',
+			'k_1qcqxea': 'မျိုးစုံ session များကိုရွေးချယ်ပါ',
+			'k_1qgmc20': 'Session တစ်ခု ရွေးပါ',
+			'k_1d8nx6f': 'ဝင်းဒိုး အသစ်တွင် ဖွင့်ပါ',
+			'k_1hz05ax': 'မူရင်း အရင်း အမြစ်ကို ဒေါင်းလုပ် ဆွဲနေစဉ် ခဏစောင့်ပါ။...',
+			'k_002robo': 'Clear',
+			'k_003lyik': 'Live',
+			'k_0cdljc3': 'Join',
+			'k_0p7ezww': 'Welcome to the live room! Strictly prohibit minors from live broadcasting, rewarding, or selling alcoholic products to minors. If the host sells alcoholic products, please minors watch under the accompaniment of a guardian. Inside the live room, strictly forbid illegal and irregular, vulgar and pornographic, smoking and excessive drinking, and personal injury content. If the host induces rewards or private transactions in an improper way during the live broadcast, please make a cautious judgment to prevent personal property loss. To purchase products, please click the shopping cart button below, do not engage in private transactions, and pay attention to property safety to beware of online fraud.',
+			'k_0zw0eau': 'Flutter',
+			'k_132m79q': 'Call End',
+			'k_167dvo3': 'Choose Contact',
+			'k_1fszgep': 'Chat with us on',
+			'k_1l1p7uv': 'Hourly Ranking 162nd',
+			'k_1u1jwb8': 'Telegram',
+			'k_1vwbpp2': 'The anchor has not yet started broadcasting.',
+			'k_1xtvvs9': 'Professional Official Technical Support',
 		};
 	}
 }
